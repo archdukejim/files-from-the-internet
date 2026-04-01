@@ -1,0 +1,315 @@
+---
+manifest:
+  created: "2026-04-01T02:52:43Z"
+  target_os: ubuntu
+  target_version: "24.04"
+  target_arch: amd64
+  codename: noble
+  bundle_name: home-core-prerequisites-20260401_024832
+
+apt_packages:
+  docker_gpg_key: apt/docker-gpg.asc
+  docker_repo: "deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu noble stable"
+  ansible_ppa: "ppa:ansible/ansible"
+  packages:
+    - acl
+    - openssl
+    - ca-certificates
+    - curl
+    - gnupg
+    - ufw
+    - libssl-dev
+    - git
+    - software-properties-common
+    - python3-pip
+    - zip
+    - unzip
+    - python3-yaml
+    - docker-ce
+    - docker-ce-cli
+    - containerd.io
+    - docker-buildx-plugin
+    - docker-compose-plugin
+    - python3-docker
+    - ansible
+  deb_files:
+    - filename: apt/acl_2.3.2-1build1.1_amd64.deb
+      sha256: 0beec20d005bb4b3138ac9c99ab7c10a06acaf1ea1ad4e10ad760e56561edd58
+      size_bytes: 39398
+    - filename: apt/ansible_13.5.0-1ppa~noble_all.deb
+      sha256: cdc0254c500b06519341d962544f074e7929a00584b776a3d79f94ecf2795222
+      size_bytes: 20074806
+    - filename: apt/binutils_2.42-4ubuntu2.10_amd64.deb
+      sha256: b3b5a84181a38fd191820b2cdcc1a3eeb1cd6333ad472f2092f96e81047e9c74
+      size_bytes: 18154
+    - filename: apt/binutils-common_2.42-4ubuntu2.10_amd64.deb
+      sha256: d136073f5e2153f3df11c1d08d66727b9466b28ff483f50085f14bbe3464b5ee
+      size_bytes: 240286
+    - filename: apt/binutils-x86-64-linux-gnu_2.42-4ubuntu2.10_amd64.deb
+      sha256: 1e510a15f30208d39edcd840e48f26a77bbca7c417805eeccb1e3f7de198ef29
+      size_bytes: 2462744
+    - filename: apt/build-essential_12.10ubuntu1_amd64.deb
+      sha256: 9b2159b95a4c01937309783c7c8a6ec8dfbcb7ffd604951c9713ac52ee9c7268
+      size_bytes: 4928
+    - filename: apt/bzip2_1.0.8-5.1build0.1_amd64.deb
+      sha256: 71c02f8f7541a2a57f0f3545ee826ad9778e665c5c457f34aca9e71abdc1a22b
+      size_bytes: 34534
+    - filename: apt/ca-certificates_20240203_all.deb
+      sha256: 641de77d8f142cfd62a1a6f964ba67b20754d3337c480efb529d086075a06c9a
+      size_bytes: 159378
+    - filename: apt/containerd.io_2.2.2-1~ubuntu.24.04~noble_amd64.deb
+      sha256: bc27516c08a2cf7a45155bc521bd939c6b5afb197a9d210d1ee7f7a09ddf76b5
+      size_bytes: 23563176
+    - filename: apt/cpp-13_13.3.0-6ubuntu2~24.04.1_amd64.deb
+      sha256: c7535331fbb183c802c3bf4b6b210872dcc12d0421b3212b3c4b940f2c59ed3a
+      size_bytes: 1042
+    - filename: apt/cpp-13-x86-64-linux-gnu_13.3.0-6ubuntu2~24.04.1_amd64.deb
+      sha256: 2ca48bf0c2d6465bc39322899715a85d934b4d7442dd5586a7bebbe3ce0f806b
+      size_bytes: 10714542
+    - filename: apt/cpp_4%3a13.2.0-7ubuntu1_amd64.deb
+      sha256: b51f8094760f7b41afdcb1fe1b5a57fc64b75a090859918af17450a10f8c7d31
+      size_bytes: 22442
+    - filename: apt/cpp-x86-64-linux-gnu_4%3a13.2.0-7ubuntu1_amd64.deb
+      sha256: 85059b30960de3582e8612740614da3dfe47241d0368a28dea686188cf7648dd
+      size_bytes: 5326
+    - filename: apt/curl_8.5.0-2ubuntu10.8_amd64.deb
+      sha256: ce3517ccfe7a53fe4c6c201f18b22a1a6e718f8b596904e5e66a10200cb8ce7e
+      size_bytes: 226502
+    - filename: apt/docker-buildx-plugin_0.31.1-1~ubuntu.24.04~noble_amd64.deb
+      sha256: 586d6325e385296d343d97db817b51021804360abda8cef4eec4411d594fc5e2
+      size_bytes: 20250420
+    - filename: apt/docker-ce_5%3a29.3.1-1~ubuntu.24.04~noble_amd64.deb
+      sha256: 5ed720ce3652e3eadc5674d8c75e6a47a67c1679154ee56ee89aedbd2e156ff0
+      size_bytes: 22594932
+    - filename: apt/docker-ce-cli_5%3a29.3.1-1~ubuntu.24.04~noble_amd64.deb
+      sha256: c887a1fef3fa7a26d1a645592670db4b6bbd792134e07ce09999b2f7692496bb
+      size_bytes: 16433536
+    - filename: apt/docker-compose-plugin_5.1.1-1~ubuntu.24.04~noble_amd64.deb
+      sha256: 74f372013fe0305cb1d338cda8239d9fbee6197bc7a03da79d32dd6937579b98
+      size_bytes: 7845692
+    - filename: apt/dpkg-dev_1.22.6ubuntu6.5_all.deb
+      sha256: d066798e36a0039200d1fa07f39516de6b3341ecff6b34ef603d2286e70440ae
+      size_bytes: 1074296
+    - filename: apt/fakeroot_1.33-1_amd64.deb
+      sha256: d58b7fc73f0b7ae8b9441b0aa41e44ead0d7e4deedf5aaf5696db182eac71031
+      size_bytes: 67216
+    - filename: apt/g++-13_13.3.0-6ubuntu2~24.04.1_amd64.deb
+      sha256: 0f3ef964b8a91a9cd7bebfd126839a21941c55547cadcf4aa00204bc8cc43985
+      size_bytes: 16048
+    - filename: apt/g++-13-x86-64-linux-gnu_13.3.0-6ubuntu2~24.04.1_amd64.deb
+      sha256: 0bd6af6164252d4ea9170d201ee4c10a3120fe0fc04985a00be3bc9076353844
+      size_bytes: 12161938
+    - filename: apt/g++_4%3a13.2.0-7ubuntu1_amd64.deb
+      sha256: 800a84b369c64b18d65f0fb5c1533de0446c880ee4f1cadad64e3363327f63f0
+      size_bytes: 1100
+    - filename: apt/gcc-13_13.3.0-6ubuntu2~24.04.1_amd64.deb
+      sha256: 7438ff160b020a74970672189ecae25d0ca650de6d7f543f12a3134192cffbd9
+      size_bytes: 494262
+    - filename: apt/gcc-13-base_13.3.0-6ubuntu2~24.04.1_amd64.deb
+      sha256: e859aca26585bb91113a451f1e66bc0e5283cb08797d679aacc1d936ae6dff8e
+      size_bytes: 51616
+    - filename: apt/gcc-13-x86-64-linux-gnu_13.3.0-6ubuntu2~24.04.1_amd64.deb
+      sha256: a134b0319a82d14581b3a14820d2832af4ec9778ed8b9b4ddaeecfb0555ec325
+      size_bytes: 21084546
+    - filename: apt/gcc_4%3a13.2.0-7ubuntu1_amd64.deb
+      sha256: 0e0bb8b25153ed1c44ab92bc219eed469fcb5820c5c0bc6454b2fd366a33d3ee
+      size_bytes: 5018
+    - filename: apt/gcc-x86-64-linux-gnu_4%3a13.2.0-7ubuntu1_amd64.deb
+      sha256: 72e79089a10e381360bfc6f03c5e5d8c2ff177d6dbac2cd7ffb3cc1383f57591
+      size_bytes: 1212
+    - filename: apt/git_1%3a2.43.0-1ubuntu7.3_amd64.deb
+      sha256: 099bb129f543adc4c14203334b0fa0a909f8bf038c4d56bc9cc7c774ebf78f87
+      size_bytes: 3679758
+    - filename: apt/gnupg_2.4.4-2ubuntu17.4_all.deb
+      sha256: 24fa610ce3b7512d58def5bf6699c05b09fbd235b9432245c000036d70eebc97
+      size_bytes: 358888
+    - filename: apt/g++-x86-64-linux-gnu_4%3a13.2.0-7ubuntu1_amd64.deb
+      sha256: 145b027a542db5b21f85d4f9e242f51c62c69914fc484adb3a4881ca8e2f3913
+      size_bytes: 964
+    - filename: apt/javascript-common_11+nmu1_all.deb
+      sha256: 5e0e49d84d2e6ef1204b0925576305c011d7c70f8d2e2122a1187bced33b36ef
+      size_bytes: 5936
+    - filename: apt/libalgorithm-diff-perl_1.201-1_all.deb
+      sha256: 2920d81cf0ac368b2fc52b892bb731ce7ce624a2cf51badbd55f801ba75d076f
+      size_bytes: 41804
+    - filename: apt/libalgorithm-diff-xs-perl_0.04-8build3_amd64.deb
+      sha256: be7d854fbc6bbe48bc1f0bd0bb66cfe27c9dca8b3037aa253394e88300f1d1a6
+      size_bytes: 11176
+    - filename: apt/libalgorithm-merge-perl_0.08-5_all.deb
+      sha256: 0ede1dbc3f899353bea903e071dbc86eb94bf90bc0d4fd626dbe6adb12b5db33
+      size_bytes: 11382
+    - filename: apt/libasan8_14.2.0-4ubuntu2~24.04.1_amd64.deb
+      sha256: 8321aac6230fa1da320e76eb6288b7436164624aec449ed3933ea6c4cc86daac
+      size_bytes: 3026656
+    - filename: apt/libatomic1_14.2.0-4ubuntu2~24.04.1_amd64.deb
+      sha256: fe49cbbc7be753528380c724a8eef5f1e31dffa9221f692c5069048d81c7449d
+      size_bytes: 10466
+    - filename: apt/libbinutils_2.42-4ubuntu2.10_amd64.deb
+      sha256: 064dce00ce94e1fc2d33779cb0071088f4c8aac79e85345f2e78a020f7d14699
+      size_bytes: 576834
+    - filename: apt/libcc1-0_14.2.0-4ubuntu2~24.04.1_amd64.deb
+      sha256: 454456436ca767817a860557263d7cc2489f0a410f03efff4c0bb236d579ec09
+      size_bytes: 48002
+    - filename: apt/libctf0_2.42-4ubuntu2.10_amd64.deb
+      sha256: 7ec86d697c3668503c85f308a6832f092075b5880ad002f22185264da0bd4645
+      size_bytes: 94474
+    - filename: apt/libctf-nobfd0_2.42-4ubuntu2.10_amd64.deb
+      sha256: da352eb7fa6c4369d2a6c1e5e680f574eda2e38576563326b18d9e47e61c4078
+      size_bytes: 98012
+    - filename: apt/libdpkg-perl_1.22.6ubuntu6.5_all.deb
+      sha256: 28c6b0280206b935474a0e1523bf3704a221d9ce38f226fb6bc919d7d110f013
+      size_bytes: 268828
+    - filename: apt/libexpat1-dev_2.6.1-2ubuntu0.4_amd64.deb
+      sha256: 9bbc065621b807311fb6fc9aee4ca2192c91dabbc323093b412a0f25f512d319
+      size_bytes: 140182
+    - filename: apt/libfakeroot_1.33-1_amd64.deb
+      sha256: a78087f50586595375f850b4445261f7a47a83005b05ce521331929fab49df4b
+      size_bytes: 32374
+    - filename: apt/libfile-fcntllock-perl_0.22-4ubuntu5_amd64.deb
+      sha256: 01a1dddd874ba1aa70e6b6baf7206df0faa4e5dd4bdcbf9f1cd4e8ee1d8548d4
+      size_bytes: 30666
+    - filename: apt/libgcc-13-dev_13.3.0-6ubuntu2~24.04.1_amd64.deb
+      sha256: cd689db2691edaa10f37329307292796bb599e722e0505c79e14caaa1fe9a93a
+      size_bytes: 2680642
+    - filename: apt/libgomp1_14.2.0-4ubuntu2~24.04.1_amd64.deb
+      sha256: e8a95ec58125b4933597f30ff56c2ae10edf90f287262e366d4b6edea3019144
+      size_bytes: 148062
+    - filename: apt/libgprofng0_2.42-4ubuntu2.10_amd64.deb
+      sha256: 1b7e3c2fc162e8358ca6e5a3fffdb4d0d632f790630323215841bb36a63c0ab8
+      size_bytes: 848684
+    - filename: apt/libhwasan0_14.2.0-4ubuntu2~24.04.1_amd64.deb
+      sha256: 2195318cfe68fe16b601913ef7b33c9a900372f57861643fdc9ae6fef84534cd
+      size_bytes: 1640706
+    - filename: apt/libisl23_0.26-3build1.1_amd64.deb
+      sha256: 4e040926e50fb961fae9bf95660189d468336a4a17bc321872c434fc8f777e7f
+      size_bytes: 679812
+    - filename: apt/libitm1_14.2.0-4ubuntu2~24.04.1_amd64.deb
+      sha256: 1fca498129dd3510294809d77ee754f72a9de281111200e9b7b9a5adf37faa9f
+      size_bytes: 29702
+    - filename: apt/libjs-jquery_3.6.1+dfsg+~3.5.14-1_all.deb
+      sha256: 8cd2eccd9c73c78c8dfdc5394861c63645f7e114553f29b4d9f15628625d191d
+      size_bytes: 327720
+    - filename: apt/libjs-sphinxdoc_7.2.6-6_all.deb
+      sha256: 3221a4bbc32830cef39def2e20fce04c0af523463444f0bcf27ded153f7c4055
+      size_bytes: 149488
+    - filename: apt/libjs-underscore_1.13.4~dfsg+~1.11.4-3_all.deb
+      sha256: d5257b7b4aacb4ebfbe6deda3d672090b85674db457377084e47f12dcc63992b
+      size_bytes: 117876
+    - filename: apt/liblsan0_14.2.0-4ubuntu2~24.04.1_amd64.deb
+      sha256: dc0c2a1a053e833ba4d71e1ec2ba4244fe301761ad4a91d6725f927a52d86a14
+      size_bytes: 1321652
+    - filename: apt/libmpc3_1.3.1-1build1.1_amd64.deb
+      sha256: cebe6098bb3d66fdacac9dc6fe406a651216d9c00f27c3f9c159d15d96cdf864
+      size_bytes: 54636
+    - filename: apt/libpython3.12-dev_3.12.3-1ubuntu0.12_amd64.deb
+      sha256: 317b1db6c09a75165b12513120a827b8a005ef293274e11403002f79ab03065c
+      size_bytes: 5680670
+    - filename: apt/libpython3-dev_3.12.3-0ubuntu2.1_amd64.deb
+      sha256: 604cb603935cd24825b027e6e5475153f441fc974789cccce5f3fd7a5e0893fe
+      size_bytes: 10350
+    - filename: apt/libquadmath0_14.2.0-4ubuntu2~24.04.1_amd64.deb
+      sha256: dc8f0ca542e09d662f29370c8393c016440dd4bc5c996c5fcc19f632b63ce3b0
+      size_bytes: 153316
+    - filename: apt/libsframe1_2.42-4ubuntu2.10_amd64.deb
+      sha256: 72093fb456864db55f1352bfa5e952a94f7abaff64e71dff1fbf001db1984564
+      size_bytes: 15724
+    - filename: apt/libssl-dev_3.0.13-0ubuntu3.7_amd64.deb
+      sha256: 5b58822de937202c6c7881f63ac6ccc1933109953075c9d158b45afcac90cbf2
+      size_bytes: 2406846
+    - filename: apt/libstdc++-13-dev_13.3.0-6ubuntu2~24.04.1_amd64.deb
+      sha256: ee5633e863e19c3381ed97842ce35ed32ede96a3d1ae4e94c051d3036fe21347
+      size_bytes: 2419834
+    - filename: apt/libtsan2_14.2.0-4ubuntu2~24.04.1_amd64.deb
+      sha256: 8cbcc9b3ae5ef23b449383d47a9035b27596e307d7dce7df9b83d47a7acd1d91
+      size_bytes: 2771910
+    - filename: apt/libubsan1_14.2.0-4ubuntu2~24.04.1_amd64.deb
+      sha256: a16dea3abe2dcac99bcfae27e7e5672fde64573c3c170dcb0cd55631238f9814
+      size_bytes: 1183812
+    - filename: apt/lto-disabled-list_47_all.deb
+      sha256: cac0f63c88188f376bb4df10a2af2b49a607bbef97a57db50ed58f678c21eee9
+      size_bytes: 12400
+    - filename: apt/make_4.3-4.1build2_amd64.deb
+      sha256: 1fe6a815b56c7b6e9ce4086a363f09444bbd0a0d30e230c453d0b78e44b57a99
+      size_bytes: 179752
+    - filename: apt/openssl_3.0.13-0ubuntu3.7_amd64.deb
+      sha256: 4c4c4fced6c322e0e77a7b3eef4007402f1fc8d4793dfa8edcb463a60da2636d
+      size_bytes: 1003108
+    - filename: apt/python3.12-dev_3.12.3-1ubuntu0.12_amd64.deb
+      sha256: c071ed11937f24b19801634dc7aa460cf5203fca3ebc3b773f858a16e7c718f8
+      size_bytes: 497926
+    - filename: apt/python3-dev_3.12.3-0ubuntu2.1_amd64.deb
+      sha256: cf5400446de32904368763c387066fa1ab6951f3981116030f308174193bff0d
+      size_bytes: 26698
+    - filename: apt/python3-docker_5.0.3-1ubuntu1.1_all.deb
+      sha256: 18dded4db70b1ba81c57d6be90e44c6c1167ed217f534e6980d30e403205bbf2
+      size_bytes: 89072
+    - filename: apt/python3-pip_24.0+dfsg-1ubuntu1.3_all.deb
+      sha256: 4e1af0b6f0b52c847ffa7b192b9f650845b99ff300138af05ab9a6252eb75682
+      size_bytes: 1319940
+    - filename: apt/python3-websocket_1.7.0-1_all.deb
+      sha256: 9cbf7b4e2cd9f663d53e7f24d8bdd0518e36a893c6a224edab788cfcf4b6dbdc
+      size_bytes: 38098
+    - filename: apt/python3-wheel_0.42.0-2_all.deb
+      sha256: e1a4076425d3d1f1772b11bff6a025055723b2d0a4972f9519849ddaa8cd3953
+      size_bytes: 53052
+    - filename: apt/python3-yaml_6.0.1-2build2_amd64.deb
+      sha256: 315e59500af855f23ee4e95525b99009bd798c4d2658af8eb4b2d66a8a91ec23
+      size_bytes: 122568
+    - filename: apt/software-properties-common_0.99.49.4_all.deb
+      sha256: 36e179d8d4f8be092b090db03c68dd4b9214c1917e4f5ab77b9ba06bf85723ae
+      size_bytes: 14438
+    - filename: apt/ufw_0.36.2-6_all.deb
+      sha256: 096eb403ecaf6740d160bb306970f025222ef71324319cc1cb78d06dfa462ef1
+      size_bytes: 169082
+    - filename: apt/unzip_6.0-28ubuntu4.1_amd64.deb
+      sha256: a505b9d491386167bd8e14e3383315a4a7d6539e4406745901ccf009a7988271
+      size_bytes: 174454
+    - filename: apt/zip_3.0-13ubuntu0.2_amd64.deb
+      sha256: 30b325b542ef8e9a22a5e1e1cfce8c4f4b75db73e339e76bf405b635861f1f76
+      size_bytes: 175652
+    - filename: apt/zlib1g-dev_1%3a1.3.dfsg-3.1ubuntu2.1_amd64.deb
+      sha256: 023cbe9dbf0af87f10e54e342c67571874e412b9950d89c6cd7b010be2e67c3c
+      size_bytes: 894070
+
+ansible_collections:
+  - filename: collections/ansible-posix-2.1.0.tar.gz
+    namespace: ansible
+    name: posix
+    version: "2.1.0"
+    sha256: 5ff232cf69492a991f2a0990dbb23ef25a600b7e9209de6e33377a6ff08a8a29
+  - filename: collections/community-docker-5.1.0.tar.gz
+    namespace: community
+    name: docker
+    version: "5.1.0"
+    sha256: d0e28ca033657ba6fb189ffbb77b23e0025f5b8693e543930ad4e38c5623f317
+  - filename: collections/community-general-12.5.0.tar.gz
+    namespace: community
+    name: general
+    version: "12.5.0"
+    sha256: 3e290242a7f768c20d1e4ec2be4a82814f0207ab529c42fe720604e0ea2730cc
+
+docker_images:
+  - filename: images/nginx_latest.tar
+    image: "nginx"
+    tag: "latest"
+    digest: "nginx@sha256:7150b3a39203cb5bee612ff4a9d18774f8c7caf6399d6e8985e97e28eb751c18"
+    sha256: fdb1352ac8999fa7b835205dbe509d2ec7469a394fdd39858221003b56562e42
+    size_bytes: 65828352
+  - filename: images/ubuntu_bind9_latest.tar
+    image: "ubuntu/bind9"
+    tag: "latest"
+    digest: "ubuntu/bind9@sha256:45d541e9688f2c9010d22a78200117b66ed2df31b78f3464876f7e6e15cfaf77"
+    sha256: a88743088a6409757210588170e4b2391aa950eee6bff25b4daeefb913c1d5b8
+    size_bytes: 36875264
+  - filename: images/smallstep_step-ca_latest.tar
+    image: "smallstep/step-ca"
+    tag: "latest"
+    digest: "smallstep/step-ca@sha256:a2b17872915c193259b75a5474c398326f41bd199f0842093e52cf4182bc8270"
+    sha256: 8ecd19e0a13d51feb6d8ba38ea3ae055358d1d20766a3dc979fabb6164faa047
+    size_bytes: 51580928
+  - filename: images/alpine_latest.tar
+    image: "alpine"
+    tag: "latest"
+    digest: "alpine@sha256:25109184c71bdad752c8312a8623239686a9a2071e8825f20acb8f2198c3f659"
+    sha256: 4f9f7afb99637a4ee9727d9e17c7867307d13615e198c3fa8d616f4b9c427825
+    size_bytes: 3970560
