@@ -1,0 +1,23 @@
+home-core offline bundles — ClamAV scan
+Generated  : 2026-04-01T21:48:20Z
+Timestamp  : 20260401_214527
+Host       : host-1
+ClamAV     : ClamAV 1.4.3/27958/Wed Apr  1 06:24:34 2026
+Scanned    : controller apt/, controller collections/, target apt/, target images/
+------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+
+
+----------- SCAN SUMMARY -----------
+Known viruses: 3627757
+Engine version: 1.4.3
+Scanned directories: 4
+Scanned files: 463
+Infected files: 0
+Data scanned: 1769.39 MB
+Data read: 488.19 MB (ratio 3.62:1)
+Time: 105.512 sec (1 m 45 s)
+Start Date: 2026:04:01 21:48:20
+End Date:   2026:04:01 21:50:06
+RESULT: CLEAN — no threats found.

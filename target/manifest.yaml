@@ -1,0 +1,1256 @@
+---
+manifest:
+  created: "2026-04-01T21:50:06Z"
+  bundle_type: target
+  target_os: ubuntu
+  target_version: "24.04"
+  target_arch: amd64
+  codename: noble
+  bundle_name: home-core-target-20260401_214527
+
+apt_packages:
+  docker_gpg_key: apt/docker-gpg.asc
+  docker_repo: "deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu noble stable"
+  packages:
+    - acl
+    - openssl
+    - ca-certificates
+    - curl
+    - gnupg
+    - ufw
+    - libssl-dev
+    - git
+    - software-properties-common
+    - zip
+    - unzip
+    - python3-yaml
+    - docker-ce
+    - docker-ce-cli
+    - containerd.io
+    - docker-buildx-plugin
+    - docker-compose-plugin
+    - python3-docker
+  deb_files:
+    - filename: apt/acl_2.3.2-1build1.1_amd64.deb
+      sha256: 0beec20d005bb4b3138ac9c99ab7c10a06acaf1ea1ad4e10ad760e56561edd58
+      size_bytes: 39398
+    - filename: apt/adduser_3.137ubuntu1_all.deb
+      sha256: 542aff2395eb912a56833e11a78076342779689d8fede7adcf08d1d6b0d0cd8b
+      size_bytes: 100872
+    - filename: apt/adwaita-icon-theme_46.0-1_all.deb
+      sha256: 530d1991a87ffda50f35f9a6d23712ed04c10b742c3e434097840fed50b1eb4e
+      size_bytes: 722560
+    - filename: apt/at-spi2-common_2.52.0-1build1_all.deb
+      sha256: 7e05959b067031468f21ae46c6653a6813f1dccd994ef12a0b5f75de0ed346b6
+      size_bytes: 8674
+    - filename: apt/ca-certificates_20240203_all.deb
+      sha256: 641de77d8f142cfd62a1a6f964ba67b20754d3337c480efb529d086075a06c9a
+      size_bytes: 159378
+    - filename: apt/cdebconf_0.271ubuntu3_amd64.deb
+      sha256: 0912c7f56a62bf01a2874bcaac95c7e6ac1fc2bfc099ecc6f674a93745684ce2
+      size_bytes: 144658
+    - filename: apt/containerd.io_2.2.2-1~ubuntu.24.04~noble_amd64.deb
+      sha256: bc27516c08a2cf7a45155bc521bd939c6b5afb197a9d210d1ee7f7a09ddf76b5
+      size_bytes: 23563176
+    - filename: apt/curl_8.5.0-2ubuntu10.8_amd64.deb
+      sha256: ce3517ccfe7a53fe4c6c201f18b22a1a6e718f8b596904e5e66a10200cb8ce7e
+      size_bytes: 226502
+    - filename: apt/dbus_1.14.10-4ubuntu4.1_amd64.deb
+      sha256: 0d59be1393d5b01552edbf16c7b9357c473bf625aa47365ce2e8eef6da1dd2e1
+      size_bytes: 24300
+    - filename: apt/dbus-bin_1.14.10-4ubuntu4.1_amd64.deb
+      sha256: 0d2c7e425967039594ea099f6128231769e1ed2cc2f6fd7d895fea135c9e1964
+      size_bytes: 39310
+    - filename: apt/dbus-broker_35-2ubuntu0.1_amd64.deb
+      sha256: 1ff0c0a99b3f98dcdd9d88264740bdab4f3a1362ffe2e5ce42cfeb480fb80994
+      size_bytes: 157736
+    - filename: apt/dbus-daemon_1.14.10-4ubuntu4.1_amd64.deb
+      sha256: 785ad36aafc8912300e44a1cea438e28ea36fb94c631f5849408aea85d2ab2bf
+      size_bytes: 118148
+    - filename: apt/dbus-session-bus-common_1.14.10-4ubuntu4.1_all.deb
+      sha256: aa88bf2f2107e7d948d0e01001b447fc6cae81b285a6e7daf33dcb62737de62f
+      size_bytes: 80550
+    - filename: apt/dbus-system-bus-common_1.14.10-4ubuntu4.1_all.deb
+      sha256: 4db2e3e18c6abee1a1d1e2f91289e229dd862e6e1ef00463c5533c612c4f1809
+      size_bytes: 81648
+    - filename: apt/dbus-user-session_1.14.10-4ubuntu4.1_amd64.deb
+      sha256: e585b1694b854c3b75bfb39cc4022cafe7b14e44fd435433b613b8fb9919cb41
+      size_bytes: 9968
+    - filename: apt/dbus-x11_1.14.10-4ubuntu4.1_amd64.deb
+      sha256: 6fce42d69d92882fff7bcfd12708d2b7aea110d36f9828d9f7137fbe59521d9b
+      size_bytes: 23292
+    - filename: apt/dconf-gsettings-backend_0.40.0-4ubuntu0.1_amd64.deb
+      sha256: 2e6801f955d5960380b6240be3886162343e770b1c17c919674cbcb3d13be732
+      size_bytes: 22074
+    - filename: apt/dconf-service_0.40.0-4ubuntu0.1_amd64.deb
+      sha256: 49bf5473474228d48373da639bbe3e77157b03d4467bfa2deb56168c2c03cd81
+      size_bytes: 27576
+    - filename: apt/debconf_1.5.86ubuntu1_all.deb
+      sha256: bb390da466a7461bfc87aa3e6b7cd145dae84af3e26bf437f2c0c218ba226294
+      size_bytes: 124096
+    - filename: apt/dirmngr_2.4.4-2ubuntu17.4_amd64.deb
+      sha256: 4155be4f35ffc177ddf0282a635ebdbfd555ebb0dd3b6d8e7fd736e1fcedec0b
+      size_bytes: 323242
+    - filename: apt/distro-info-data_0.60ubuntu0.5_all.deb
+      sha256: 75bcec46d8d057b2fcbbea23b2eb2ba2110e202165211d0bcf94f20c39aa1c65
+      size_bytes: 6934
+    - filename: apt/docker-buildx-plugin_0.33.0-1~ubuntu.24.04~noble_amd64.deb
+      sha256: a35865b80cba2832ef6a914c00c3f25e9f2900034e43a223280a997317683c65
+      size_bytes: 16898664
+    - filename: apt/docker-ce_5%3a29.3.1-1~ubuntu.24.04~noble_amd64.deb
+      sha256: 5ed720ce3652e3eadc5674d8c75e6a47a67c1679154ee56ee89aedbd2e156ff0
+      size_bytes: 22594932
+    - filename: apt/docker-ce-cli_5%3a29.3.1-1~ubuntu.24.04~noble_amd64.deb
+      sha256: c887a1fef3fa7a26d1a645592670db4b6bbd792134e07ce09999b2f7692496bb
+      size_bytes: 16433536
+    - filename: apt/docker-compose-plugin_5.1.1-1~ubuntu.24.04~noble_amd64.deb
+      sha256: 74f372013fe0305cb1d338cda8239d9fbee6197bc7a03da79d32dd6937579b98
+      size_bytes: 7845692
+    - filename: apt/dpkg_1.22.6ubuntu6.5_amd64.deb
+      sha256: 901956d9e189bf367db3c309795d11ebe2d84b4a9660f7e7ce0c2fa5173b24f9
+      size_bytes: 1281912
+    - filename: apt/fontconfig_2.15.0-1.1ubuntu2_amd64.deb
+      sha256: ddf0aace42b13a5bc38904e848b145b787ea254cddf5213d150254bd654db6e5
+      size_bytes: 180204
+    - filename: apt/fontconfig-config_2.15.0-1.1ubuntu2_amd64.deb
+      sha256: 9df0579cd298a1f2b7a40efd519c849745aecd193a09733cf4d1032284a62bbf
+      size_bytes: 37298
+    - filename: apt/fonts-croscore_20201225-2_all.deb
+      sha256: 68ba36c33cd3b6edd8e765fd685bf55bd7da888e896ca0995a9781bbd61e78c4
+      size_bytes: 1708778
+    - filename: apt/fonts-dejavu-core_2.37-8_all.deb
+      sha256: 40049660c194f3b8a2541fc7369efebb10e9f94bdac836a2f38fafedd10fa73a
+      size_bytes: 835172
+    - filename: apt/fonts-dejavu-mono_2.37-8_all.deb
+      sha256: 8a599d6553307db7ecb795d2f0e5a301e03234afc75c7358b0ba43466454c89a
+      size_bytes: 502232
+    - filename: apt/fonts-freefont-otf_20211204+svn4273-2_all.deb
+      sha256: a8811ba7279578539e37fec2bb6520bb9dbfeb378bae55e61bf4c5f976350d82
+      size_bytes: 4595804
+    - filename: apt/fonts-freefont-ttf_20211204+svn4273-2_all.deb
+      sha256: c8283ec9ca390e6ad8d2114cb0942182db62bb97f5142c2f955218fc5f2027b4
+      size_bytes: 5640794
+    - filename: apt/fonts-liberation_1%3a2.1.5-3_all.deb
+      sha256: 065c2ab1abc9108b17d401016dc594b79750904390f095845c93bb06e1153acc
+      size_bytes: 1603290
+    - filename: apt/fonts-noto-core_20201225-2_all.deb
+      sha256: 4fee136cb12fc197703a340e010478f780a41044339fcefbd78ed9aa96c8b617
+      size_bytes: 13291094
+    - filename: apt/fonts-noto-mono_20201225-2_all.deb
+      sha256: ce277a6e2fbbe7562206171e20e0493ac42c9c405758505cb42aaa01c982036c
+      size_bytes: 434770
+    - filename: apt/fonts-texgyre_20180621-6_all.deb
+      sha256: dc743718ece939f4a868e15012e383aa9bf6501ed6857c895835911053ef250a
+      size_bytes: 8350126
+    - filename: apt/fonts-urw-base35_20200910-8_all.deb
+      sha256: 46e75490faa7fd6fddbc8df234d14e0f7b60ea5e98563227a24d6bf5e5008647
+      size_bytes: 10968180
+    - filename: apt/gcc-14-base_14.2.0-4ubuntu2~24.04.1_amd64.deb
+      sha256: b95c172411a7fdae70307cf33a9f5320ba5e056b556454543dd5b679d5ce1c4f
+      size_bytes: 51014
+    - filename: apt/gcr_3.41.2-1build3_amd64.deb
+      sha256: 5c239a7ec1a732c649ab4c043cd55a5c7a2c673df4e486a8317e42a25cc9f928
+      size_bytes: 60408
+    - filename: apt/gcr4_4.2.0-5_amd64.deb
+      sha256: d19b647b69a17a93e5446b3b7a35e930a398d71d8c9a1390846c66e6a6700259
+      size_bytes: 42942
+    - filename: apt/gir1.2-girepository-2.0_1.80.1-1_amd64.deb
+      sha256: fde3d3a4ef2b997bda1904ccd340f0c82abd7cae5c3e96a1519326b91caac19a
+      size_bytes: 24530
+    - filename: apt/gir1.2-glib-2.0_2.80.0-6ubuntu3.8_amd64.deb
+      sha256: dc1b5c79f3e1bbbc48acc29fee1a90fbb81bd605fde375dc698d94bb335f7bb9
+      size_bytes: 183424
+    - filename: apt/gir1.2-packagekitglib-1.0_1.2.8-2ubuntu1.4_amd64.deb
+      sha256: 0f64c7a4aad0c05549a4de47a79209894091fdc3e6a506ca0ca66ef9f76a4132
+      size_bytes: 25598
+    - filename: apt/git_1%3a2.43.0-1ubuntu7.3_amd64.deb
+      sha256: 099bb129f543adc4c14203334b0fa0a909f8bf038c4d56bc9cc7c774ebf78f87
+      size_bytes: 3679758
+    - filename: apt/git-man_1%3a2.43.0-1ubuntu7.3_all.deb
+      sha256: 5701f931ed2cd30644700b0fc1cda7c2214f93a63ef84c0c80e43ce40d2cf1d2
+      size_bytes: 1100178
+    - filename: apt/gnome-icon-theme_3.12.0-5_all.deb
+      sha256: 4d305ffe2bbd1e01978d98dd191d8f5b731fc5c06e7b501cc5c182a73bf6b989
+      size_bytes: 9619232
+    - filename: apt/gnupg_2.4.4-2ubuntu17.4_all.deb
+      sha256: 24fa610ce3b7512d58def5bf6699c05b09fbd235b9432245c000036d70eebc97
+      size_bytes: 358888
+    - filename: apt/gnupg-utils_2.4.4-2ubuntu17.4_amd64.deb
+      sha256: a66520564376ebbe108603f0eaa3170962d53b201a4185b4f6ab1dfd1b34d655
+      size_bytes: 109094
+    - filename: apt/gpg_2.4.4-2ubuntu17.4_amd64.deb
+      sha256: 4c625bdbe37c734e744ceba2f2db18b197683de6d00b42e197b977b9a3caa215
+      size_bytes: 565248
+    - filename: apt/gpg-agent_2.4.4-2ubuntu17.4_amd64.deb
+      sha256: 98a70e750ed790020a5c7066406c0e8d15646e262185ecd9c2f484dc95e9c860
+      size_bytes: 227042
+    - filename: apt/gpgconf_2.4.4-2ubuntu17.4_amd64.deb
+      sha256: 7f7cc936ad298e70f6f406ff7e9d9c54ea4f8f9a850fe71b6257a79d97b67724
+      size_bytes: 103804
+    - filename: apt/gpgsm_2.4.4-2ubuntu17.4_amd64.deb
+      sha256: 47cdea6a8d2c35aea4ceb62e54e981b92309bd68fe517650637f68a634a2970f
+      size_bytes: 231626
+    - filename: apt/gpgv_2.4.4-2ubuntu17.4_amd64.deb
+      sha256: ed2e1fcd39d5a50d592a58a24d80df90682c4da40ba25a73da36d52c422cc4bb
+      size_bytes: 158030
+    - filename: apt/gtk-update-icon-cache_3.24.41-4ubuntu1.3_amd64.deb
+      sha256: bd59cdd3d08524cfbf291efa5f9bed68916375e89476cc04ac5af515eb10e33c
+      size_bytes: 51898
+    - filename: apt/hicolor-icon-theme_0.17-2_all.deb
+      sha256: 9000eb98868252261978ff49501c0ace3124cb369c395e9f5015ddc556fe2ba6
+      size_bytes: 9976
+    - filename: apt/humanity-icon-theme_0.6.16_all.deb
+      sha256: a9bb76c7eb926bd97e50455a79f266de826a246b2250e1ac4aebcda013dd51c7
+      size_bytes: 1281812
+    - filename: apt/init-system-helpers_1.66ubuntu1_all.deb
+      sha256: 8eb801f9ce084dab9bf4cbc3ec0ee5ac75516a4cc1f25e3f92298c632e75b700
+      size_bytes: 39402
+    - filename: apt/iptables_1.8.10-3ubuntu2_amd64.deb
+      sha256: d341e8ffc42ca035f5aa0fd9a798c8d2b2edb019225dc11f4dac16edf9c57840
+      size_bytes: 381328
+    - filename: apt/iso-codes_4.16.0-1_all.deb
+      sha256: cafca0a3a1f07b44fbba53ab7a1f1d9755e6b80cc041173afe2b52e53bed97a7
+      size_bytes: 3491500
+    - filename: apt/keyboxd_2.4.4-2ubuntu17.4_amd64.deb
+      sha256: c97eb18b05c7a1d4f30efefc1d9896f06cf2632d62ade8bf750288fd48ad53bf
+      size_bytes: 78272
+    - filename: apt/libacl1_2.3.2-1build1.1_amd64.deb
+      sha256: f2bfd3f8f00413d5f1f04fc723063803c56ac0f1e0efae3bc41f2d7276972ec3
+      size_bytes: 16792
+    - filename: apt/libapparmor1_4.0.1really4.0.1-0ubuntu0.24.04.5_amd64.deb
+      sha256: 3a048cd567fa6fedb40cb43c22140de2788422b5f3beb5c03faad16ca8fba85f
+      size_bytes: 50490
+    - filename: apt/libappstream5_1.0.2-1build6_amd64.deb
+      sha256: 2c5d097a0ec6e918f986028844fc840d773bcf84a5a685a901f438dd48dcfe17
+      size_bytes: 238266
+    - filename: apt/libapt-pkg6.0t64_2.8.3_amd64.deb
+      sha256: 500579fafa3c5ab8ba2002b7cd76690532ea76efe1b2f250569104c615b7042b
+      size_bytes: 984704
+    - filename: apt/libargon2-1_0~20190702+dfsg-4build1_amd64.deb
+      sha256: e2c50cb5c50ca598585397f4d4ce43e6f0b5e3ddc212c23b30bdb34ca4a61f66
+      size_bytes: 20824
+    - filename: apt/libassuan0_2.5.6-1build1_amd64.deb
+      sha256: 59c6ee6aa6fffb5d181f37373baec18c26791f5d1c907ceeb62163460b11daf2
+      size_bytes: 37256
+    - filename: apt/libatk1.0-0t64_2.52.0-1build1_amd64.deb
+      sha256: 42c5d4b00954f17c2c3c4b866844f691eb8b6d57bf08b59203e65f12dc84a4f9
+      size_bytes: 55282
+    - filename: apt/libatk-bridge2.0-0t64_2.52.0-1build1_amd64.deb
+      sha256: 22b7d47e3c0f7953a78d3cfd309d1b20771085de9220fbe610c0989b9e808c9b
+      size_bytes: 66020
+    - filename: apt/libatspi2.0-0t64_2.52.0-1build1_amd64.deb
+      sha256: d686ace4080eca9c2d6ce8de69392a5ac56c846701894c0858922d4ce341a1d7
+      size_bytes: 80548
+    - filename: apt/libaudit1_1%3a3.1.2-2.1build1.1_amd64.deb
+      sha256: 408457f91745dd33746d24d063986df96a81166d6a59431583073398cefa1301
+      size_bytes: 46962
+    - filename: apt/libaudit-common_1%3a3.1.2-2.1build1.1_all.deb
+      sha256: c8ab5bed96f9781daab7c36fcbe4b12c3f3247a37256c0e341dc827db1e9a010
+      size_bytes: 5824
+    - filename: apt/libavahi-client3_0.8-13ubuntu6.1_amd64.deb
+      sha256: debe954f284e1712c407de92023b0cff45d239557344fb8acc65505b1d841240
+      size_bytes: 26814
+    - filename: apt/libavahi-common3_0.8-13ubuntu6.1_amd64.deb
+      sha256: f6e3a80bf7423d42adafd0de5293137cbed926b7a93a688c348e50a7d43d77aa
+      size_bytes: 23440
+    - filename: apt/libavahi-common-data_0.8-13ubuntu6.1_amd64.deb
+      sha256: 35e0a40737112580535948db838260f9845a09a2e529f5fc132f10242495ac53
+      size_bytes: 29872
+    - filename: apt/libblkid1_2.39.3-9ubuntu6.5_amd64.deb
+      sha256: 2307a9ed92642a69de0284ac63e233e45ac5a2c3831f04399f7d212379487e82
+      size_bytes: 123170
+    - filename: apt/libbrotli1_1.1.0-2build2_amd64.deb
+      sha256: 74492419b8fda803774b8c9acef6afc5d2f9ff31782635aae212906adae7b277
+      size_bytes: 330730
+    - filename: apt/libbsd0_0.12.1-1build1.1_amd64.deb
+      sha256: f3857b0863ac5cfd4263e9bf6cfb1d4be88d5321e4070d5bc2b62b0949e6c86f
+      size_bytes: 41238
+    - filename: apt/libbz2-1.0_1.0.8-5.1build0.1_amd64.deb
+      sha256: d557ab12b42ab370249142099fae3cbb979948934e4dfa58c2ab59bf5bbbda73
+      size_bytes: 34370
+    - filename: apt/libc6_2.39-0ubuntu8.7_amd64.deb
+      sha256: 955644e8bc2930a9bf8eea5e4c2237c8a118c1e2ac2845b993b6f7f35eefd293
+      size_bytes: 3262920
+    - filename: apt/libcairo2_1.18.0-3build1_amd64.deb
+      sha256: 96950b306889ff6e4248bb937b0a3b56e72dacf643fe732214ce375f0f6bbb36
+      size_bytes: 566292
+    - filename: apt/libcairo-gobject2_1.18.0-3build1_amd64.deb
+      sha256: f5483cbe43455fc9e9cba7f0e166bd0a731c02db2902ba562719848f72e8c403
+      size_bytes: 126788
+    - filename: apt/libcairo-script-interpreter2_1.18.0-3build1_amd64.deb
+      sha256: e104466e7d816672a711db42746af528d210197231f12e3c712c06ac9a79b214
+      size_bytes: 60272
+    - filename: apt/libcap2_1%3a2.66-5ubuntu2.2_amd64.deb
+      sha256: 9241539476d657d102b5a51ea3cd80ac3576e8e15f23c59f22b757d8eb4c5301
+      size_bytes: 30040
+    - filename: apt/libcap2-bin_1%3a2.66-5ubuntu2.2_amd64.deb
+      sha256: 327082742f2e6b8e2d7c4857266a7e62e0c5e04ef1af166612b3d23343e3a045
+      size_bytes: 34170
+    - filename: apt/libcap-ng0_0.8.4-2build2_amd64.deb
+      sha256: cf1e9437ac7ddf6539dbe87b68858cbdef84d78c6aac243ab3b6e564a52ed930
+      size_bytes: 15180
+    - filename: apt/libcolord2_1.4.7-1build2_amd64.deb
+      sha256: ef148eb22d566506302a133516594e455e59307aa0dc9874c15a8618268e3355
+      size_bytes: 148960
+    - filename: apt/libcom-err2_1.47.0-2.4~exp1ubuntu4.1_amd64.deb
+      sha256: 7ab24d3057dabf86db8f771ad6e43f073ed86b6b950d6e8ba22cb9fe6707bbc9
+      size_bytes: 22982
+    - filename: apt/libcrypt1_1%3a4.4.36-4build1_amd64.deb
+      sha256: 9474785cd6f398512bf8c305c3901dbb111569dccb6f5832002373c0a8ac5832
+      size_bytes: 82302
+    - filename: apt/libcryptsetup12_2%3a2.7.0-1ubuntu4.2_amd64.deb
+      sha256: f6f6a7f35104da711997b52c92ab91ce1f47dd039d276d5beb797d713447c9f2
+      size_bytes: 266122
+    - filename: apt/libcups2t64_2.4.7-1.2ubuntu7.9_amd64.deb
+      sha256: 5b42417a77eff041189ad4a599387cd5287d1cba88482f2a3beb3328aea0ba25
+      size_bytes: 272632
+    - filename: apt/libcurl3t64-gnutls_8.5.0-2ubuntu10.8_amd64.deb
+      sha256: f91f24336cb9cc9ea97475bc57c1ba7502ca4bf2efb235762abfaeacb44702a3
+      size_bytes: 333754
+    - filename: apt/libcurl4t64_8.5.0-2ubuntu10.8_amd64.deb
+      sha256: cd8b4030be6cff775cc3945bb35be23a3b098740cd58480b77c36d1fe1e0334f
+      size_bytes: 341856
+    - filename: apt/libdatrie1_0.2.13-3build1_amd64.deb
+      sha256: 1ae164e40e413eac4fbd38ce1c6ef9591f7a03278ad9076d71fa29258727f447
+      size_bytes: 18992
+    - filename: apt/libdb5.3t64_5.3.28+dfsg2-7_amd64.deb
+      sha256: a78a25c8fad8fdd0b7bc6b297da5d5685579be1e57732aa47870830e4a13161e
+      size_bytes: 734100
+    - filename: apt/libdbus-1-3_1.14.10-4ubuntu4.1_amd64.deb
+      sha256: 5d630480f04b4b442300ce847a3fa705ea4d14d80ba6de91f99b51a4e4953b08
+      size_bytes: 209734
+    - filename: apt/libdconf1_0.40.0-4ubuntu0.1_amd64.deb
+      sha256: 86bf3825fbaec0d5159c5e6bd88f10ade991a086c821aeef15631c510c6d9904
+      size_bytes: 39588
+    - filename: apt/libdebian-installer4_0.124ubuntu2_amd64.deb
+      sha256: d074c2eea6bc6a17ecfeaaf7501b99e3443eb962ff0c00a1ec30c42bd73ce25f
+      size_bytes: 26338
+    - filename: apt/libdeflate0_1.19-1build1.1_amd64.deb
+      sha256: 8e7dfa9e63a9b5058071b84da48bb2e30dea07de169e80fbc759fe0e68639269
+      size_bytes: 43914
+    - filename: apt/libdevmapper1.02.1_2%3a1.02.185-3ubuntu3.2_amd64.deb
+      sha256: 0d43a02b9030a50edbc49c9580f88f01eef2b043baad1c6200672c39643c0efe
+      size_bytes: 139194
+    - filename: apt/libdouble-conversion3_3.3.0-1build1_amd64.deb
+      sha256: 856f534738da20fa9d8c271e17781fba3dc180bbbab116c22a0b569f6f506e25
+      size_bytes: 40294
+    - filename: apt/libdrm2_2.4.125-1ubuntu0.1~24.04.1_amd64.deb
+      sha256: e7d51a656cd84060d6813fc717859abc713e44576fb3fe7ecc573b27a4a664eb
+      size_bytes: 41274
+    - filename: apt/libdrm-amdgpu1_2.4.125-1ubuntu0.1~24.04.1_amd64.deb
+      sha256: 712478d7cad9fc339b61bd80fff95a4eeb473247a0b45e68d558115c4315ec52
+      size_bytes: 21354
+    - filename: apt/libdrm-common_2.4.125-1ubuntu0.1~24.04.1_all.deb
+      sha256: cfd6fecc736128ee425f5aba42682c8c8552a37794a420007e1dbe01275614f1
+      size_bytes: 9174
+    - filename: apt/libdrm-intel1_2.4.125-1ubuntu0.1~24.04.1_amd64.deb
+      sha256: bc257d45a5de392a2bfa067ff4f733ae3aae2d6b6645f60c44b4d1e7996436bd
+      size_bytes: 63846
+    - filename: apt/libduktape207_2.7.0+tests-0ubuntu3_amd64.deb
+      sha256: 6b7df26e298b890ebe6ca7b0d87fcfddb103b728b8fd731469ba5135d0bac183
+      size_bytes: 143398
+    - filename: apt/libdw1t64_0.190-1.1ubuntu0.1_amd64.deb
+      sha256: edaa9ce4221d95f4bd72a9805100902e313092a2f31a7a51e7186be97734714d
+      size_bytes: 261194
+    - filename: apt/libedit2_3.1-20230828-1build1_amd64.deb
+      sha256: 3afbc8ddf835049dd4d88275b9d13680e4c4cdd59e191cbd63424152cc08e00e
+      size_bytes: 97586
+    - filename: apt/libegl1_1.7.0-1build1_amd64.deb
+      sha256: e549f7776216f7bd3b1c216729fb40a97a562e2eb7c563cde632b4931f9a4e57
+      size_bytes: 28670
+    - filename: apt/libegl-mesa0_25.2.8-0ubuntu0.24.04.1_amd64.deb
+      sha256: 1182e88e0312ea58dc6f4fbe8ffc7596531027d768aaa3c10f60340bd01e9e88
+      size_bytes: 117220
+    - filename: apt/libelf1t64_0.190-1.1ubuntu0.1_amd64.deb
+      sha256: b4aee123a37472d213647594b4f7d4a0d13615b0ca2a6fd33926b768d6b232c2
+      size_bytes: 57810
+    - filename: apt/libepoxy0_1.5.10-1build1_amd64.deb
+      sha256: e2e754da4e7fb89021476b093cb5ebe9b1859a688fa37739809e529627d39f1f
+      size_bytes: 220408
+    - filename: apt/liberror-perl_0.17029-2_all.deb
+      sha256: 1907af6bf33dd8684447c09f216c675d2b8559fadd8ddace29fbf83c6fb2a636
+      size_bytes: 25632
+    - filename: apt/libevdev2_1.13.1+dfsg-1build1_amd64.deb
+      sha256: a14b1ea7b3220a063458590734920879cec8431b4fc5160eb0f044dfb8d76515
+      size_bytes: 37756
+    - filename: apt/libexpat1_2.6.1-2ubuntu0.4_amd64.deb
+      sha256: 126a5612e652bdc2edee19ae8fe4308db72b5b3b0a5581bf885b44a093baf3e5
+      size_bytes: 88214
+    - filename: apt/libfdisk1_2.39.3-9ubuntu6.5_amd64.deb
+      sha256: a67f2ed8b8a0323ab3c1e33a8caf81b9bf8ceb1d3586ec5600f40e1406c48f6a
+      size_bytes: 146354
+    - filename: apt/libffi8_3.4.6-1build1_amd64.deb
+      sha256: 637e6a7744de08cd331a41f4efd0d24e6ea9064843dea9d1c6ca87bdb5f038a2
+      size_bytes: 24718
+    - filename: apt/libfltk1.3t64_1.3.8-6.1build2_amd64.deb
+      sha256: 98b0769a8df852e0615a5a11fca4ef0bb01c6069da9ed3bca27f7ca8be8104f0
+      size_bytes: 605914
+    - filename: apt/libfontconfig1_2.15.0-1.1ubuntu2_amd64.deb
+      sha256: a2bc05cfef021fdb84285036f98eda5ebec3c4b7a378f5aa2bdba5c4d3d8d586
+      size_bytes: 138572
+    - filename: apt/libfontenc1_1%3a1.1.8-1build1_amd64.deb
+      sha256: 0c5d57211cac9659e7f4c856f5e1922c4a522fe8bcf5776e9707b2811f965702
+      size_bytes: 13996
+    - filename: apt/libfreetype6_2.13.2+dfsg-1ubuntu0.1_amd64.deb
+      sha256: f6937fd8a77e83001dcfd3857d5a5cfbd4caaeb297c7fdb71ec50514843e48af
+      size_bytes: 402072
+    - filename: apt/libfribidi0_1.0.13-3build1_amd64.deb
+      sha256: 6cd50259d39ce0dfafee2632c6268538e6a02590e77161a133e9683af346dd1d
+      size_bytes: 26150
+    - filename: apt/libgbm1_25.2.8-0ubuntu0.24.04.1_amd64.deb
+      sha256: 34bd750b22cb6281e9df3c3644577426e8dcf964778b235032b8383b5b49174f
+      size_bytes: 34156
+    - filename: apt/libgcc-s1_14.2.0-4ubuntu2~24.04.1_amd64.deb
+      sha256: aa7fadbe33b78bcf99885318040601c550c208929565b179891d9a3cc2aa68cd
+      size_bytes: 78392
+    - filename: apt/libgck-1-0_3.41.2-1build3_amd64.deb
+      sha256: bceace92f5cbbf55ab2c963a426f73335c887f0c1c45c7b0b7d7610b36d9afde
+      size_bytes: 79912
+    - filename: apt/libgck-2-2_4.2.0-5_amd64.deb
+      sha256: 3598c9a6bbf5960ffb97639f964567541970abb1d7a765001524b76c50de7639
+      size_bytes: 76952
+    - filename: apt/libgcr-4-4_4.2.0-5_amd64.deb
+      sha256: a4e29eba33714269df708316f02e1a52d59e801a8def898b2408c9fe64c85107
+      size_bytes: 192400
+    - filename: apt/libgcr-base-3-1_3.41.2-1build3_amd64.deb
+      sha256: b702e0ef02517caf5a3e35b9b663dfc22935315dc2e7dc507e78435963ff2e24
+      size_bytes: 202216
+    - filename: apt/libgcr-ui-3-1_3.41.2-1build3_amd64.deb
+      sha256: e48fd6e74dddbb1a522abd4b9f2a40b10bc73c93c7279809817dd71377a6d090
+      size_bytes: 124320
+    - filename: apt/libgcrypt20_1.10.3-2build1_amd64.deb
+      sha256: ff32bae487706ba6ca646b5b72d89b935e3b8b2811d02e4ad7360cb97d90e2d0
+      size_bytes: 532180
+    - filename: apt/libgdbm6t64_1.23-5.1build1_amd64.deb
+      sha256: 18d6d74a5c038b458d95ba0c0909e0f086cd50bb9a0fee32697902724fc5645e
+      size_bytes: 34440
+    - filename: apt/libgdbm-compat4t64_1.23-5.1build1_amd64.deb
+      sha256: fb8564afd7b7d74d55207070ba50339478e22d29a39ec740dc482f069ac7ee65
+      size_bytes: 6710
+    - filename: apt/libgdk-pixbuf-2.0-0_2.42.10+dfsg-3ubuntu3.2_amd64.deb
+      sha256: 37818ff7421407dc2bb467e596167e5310d9b3771d767a824c05bf4f6d3643d2
+      size_bytes: 147326
+    - filename: apt/libgdk-pixbuf2.0-common_2.42.10+dfsg-3ubuntu3.2_all.deb
+      sha256: dbcae71e715e0af56aa0438e03162baebc162f54a8a495d6f7962ba6b14f0ef1
+      size_bytes: 8192
+    - filename: apt/libgirepository-1.0-1_1.80.1-1_amd64.deb
+      sha256: 67ab4f3dc402229519f36f63b24a987a123a611e21cbef71ed4a110ed339e547
+      size_bytes: 81920
+    - filename: apt/libgl1_1.7.0-1build1_amd64.deb
+      sha256: e2b2fadeb883f073b566ad1d7874f6702397514d258473e96152a89d4d502a09
+      size_bytes: 101990
+    - filename: apt/libgl1-mesa-dri_25.2.8-0ubuntu0.24.04.1_amd64.deb
+      sha256: 7f6d63332dbcff47bec5ad43dc5b03e502c181be066ae908a9ae44ff06677e1a
+      size_bytes: 37918
+    - filename: apt/libgles2_1.7.0-1build1_amd64.deb
+      sha256: 9dec2d79a2eebb80522f7cce77995f7a8ded22f0e3916f13353d066c62f97fac
+      size_bytes: 17122
+    - filename: apt/libglib2.0-0t64_2.80.0-6ubuntu3.8_amd64.deb
+      sha256: ca4eda0e01c76ba2e5e501e77decce53d98a641234b517eb98fc5d74980f913f
+      size_bytes: 1545474
+    - filename: apt/libglib2.0-bin_2.80.0-6ubuntu3.8_amd64.deb
+      sha256: 05af2919d2b758680d84e09186860da288b333f64e2f0d7fe1189c4506958ac9
+      size_bytes: 97930
+    - filename: apt/libglib2.0-data_2.80.0-6ubuntu3.8_all.deb
+      sha256: 4f4269f52ac6a933dc53f37a2144a3984abbd4a1a0d44da1e7edbae410ddc1f4
+      size_bytes: 49588
+    - filename: apt/libglvnd0_1.7.0-1build1_amd64.deb
+      sha256: 33f5e07c74f73c2bfb44086ae0f9e6da52acd6c104d30ffe8fd768d8253d5e82
+      size_bytes: 69594
+    - filename: apt/libglx0_1.7.0-1build1_amd64.deb
+      sha256: aa4953182f30abde90cb5b072e83d7286b557b325769b8686196a7bd396d8795
+      size_bytes: 38558
+    - filename: apt/libglx-mesa0_25.2.8-0ubuntu0.24.04.1_amd64.deb
+      sha256: 682d302a63c01f8e00967c7ab217c768ca6642b964bece69fa84211ed33d1bdd
+      size_bytes: 110046
+    - filename: apt/libgmp10_2%3a6.3.0+dfsg-2ubuntu6.1_amd64.deb
+      sha256: 285f8a505dfa8e1b33f357a9d8d3477ad35bf18c0b34771a6df4c25923f3ae0d
+      size_bytes: 253460
+    - filename: apt/libgnutls30t64_3.8.3-1.1ubuntu3.5_amd64.deb
+      sha256: 59e1112a23cb6b1db98dd5a37a67aa11b0f75b2c21c9054bb6af5e2e0fd484fc
+      size_bytes: 1001260
+    - filename: apt/libgpg-error0_1.47-3build2.1_amd64.deb
+      sha256: 93654ee8180a73a0363f25c51dc673d67cbabcbecd164187b8a2deb54d007aef
+      size_bytes: 70092
+    - filename: apt/libgraphene-1.0-0_1.10.8-3build2_amd64.deb
+      sha256: 5276c4173bff30bd2a368cce30639227089512aad85fc4af87c284456bafe8ff
+      size_bytes: 46224
+    - filename: apt/libgraphite2-3_1.3.14-2build1_amd64.deb
+      sha256: e2a91c59a2b26649ed0b331bedab0c92e56cc2021cce27df1080089edaad7aba
+      size_bytes: 73050
+    - filename: apt/libgssapi-krb5-2_1.20.1-6ubuntu2.6_amd64.deb
+      sha256: 0f1b296f6731dc51569350dcb2971629f36e78a21015c73165eddc5af5c978ad
+      size_bytes: 142996
+    - filename: apt/libgstreamer1.0-0_1.24.2-1ubuntu0.1_amd64.deb
+      sha256: 306a6a5cff08630b79b8a68e5f888da7d8e209a452e9b5e24449cca95d8e71f5
+      size_bytes: 1165196
+    - filename: apt/libgtk2.0-0t64_2.24.33-4ubuntu1.1_amd64.deb
+      sha256: 6671dfd1956cf0ed3de20358f77c91afed6ff4e887fc22921f63e0d8241696ec
+      size_bytes: 2005826
+    - filename: apt/libgtk2.0-common_2.24.33-4ubuntu1.1_all.deb
+      sha256: 7c65762841004d130c7abb0b7e37905e7116a87e7d6173ee9690308e90c444a9
+      size_bytes: 126754
+    - filename: apt/libgtk-3-0t64_3.24.41-4ubuntu1.3_amd64.deb
+      sha256: fd61e308234b12d243160798216d0efcb605d83af185bf3414ac99c2ed5166fc
+      size_bytes: 2913080
+    - filename: apt/libgtk-3-common_3.24.41-4ubuntu1.3_all.deb
+      sha256: 193be16ae51e14f6a209de012e61916761be866c6babaa48d7faa9e641567950
+      size_bytes: 1425952
+    - filename: apt/libgtk-4-1_4.14.5+ds-0ubuntu0.9_amd64.deb
+      sha256: d6b7ab290207eec2c8bfd6d134b8b2c994d13658d451e5e3d727f9b649010c91
+      size_bytes: 3296498
+    - filename: apt/libgtk-4-common_4.14.5+ds-0ubuntu0.9_all.deb
+      sha256: b929c532415b1ab019cbf14a224e722d4e34a727c931cae19d1a30ee2d12daed
+      size_bytes: 1496830
+    - filename: apt/libgudev-1.0-0_1%3a238-5ubuntu1_amd64.deb
+      sha256: 8bdd42c584a8d18759df2311b126dc679d438e9780038743b792cf5315f248dc
+      size_bytes: 15906
+    - filename: apt/libharfbuzz0b_8.3.0-2build2_amd64.deb
+      sha256: d6f7eea2244f98aa0463a056680d4629476bf624767ede301560e24add686b5c
+      size_bytes: 468874
+    - filename: apt/libhogweed6t64_3.9.1-2.2build1.1_amd64.deb
+      sha256: a9b5f7e9d49ba9060e1c933567046fbc6feab6096799cbf550b7214dc9b0f49b
+      size_bytes: 198548
+    - filename: apt/libice6_2%3a1.0.10-1build3_amd64.deb
+      sha256: ad1edb5303574fee154e487947177e5bd15363aa71b92f78f5a2a7145fdb81c5
+      size_bytes: 41398
+    - filename: apt/libicu74_74.2-1ubuntu3.1_amd64.deb
+      sha256: c9a70989678660eed9a1e904c74fa043da8bec8e2036856fc16e31ced79b04f8
+      size_bytes: 10860078
+    - filename: apt/libidn2-0_2.3.7-2build1.1_amd64.deb
+      sha256: 46bfd10df095a23b65f58115de47a547c9a2d14627749bd0423ae78c14be77d3
+      size_bytes: 66242
+    - filename: apt/libinput10_1.25.0-1ubuntu3.3_amd64.deb
+      sha256: 387187fa9fac81ff07e8e95e828d0277298c787fcc98c9e69184842bb7323061
+      size_bytes: 133482
+    - filename: apt/libinput-bin_1.25.0-1ubuntu3.3_amd64.deb
+      sha256: 114e6ce714df59e07ea163712cc7169f248ee46ee1a4a3dc4ee2cd4c7e90ebe0
+      size_bytes: 23002
+    - filename: apt/libip4tc2_1.8.10-3ubuntu2_amd64.deb
+      sha256: eb381f8ff0469534df3f1b146c3eb8baa6e36f8cfcdf2e3e039398322930d0a4
+      size_bytes: 23342
+    - filename: apt/libip6tc2_1.8.10-3ubuntu2_amd64.deb
+      sha256: b98b88eb6aa14a902ea1aebc3b12ddd140572545ae1fc6428cb0868c31671d05
+      size_bytes: 23732
+    - filename: apt/libjansson4_2.14-2build2_amd64.deb
+      sha256: 0cf79113f5d193ce9af2be2ff4b2c3b30dd4e55a0b6c47f7d28f6c849ff3aa60
+      size_bytes: 32830
+    - filename: apt/libjbig0_2.1-6.1ubuntu2_amd64.deb
+      sha256: 074a760a86213a1286ad60f56394c90885cf45af070626a88c480d90b78c175a
+      size_bytes: 29668
+    - filename: apt/libjpeg8_8c-2ubuntu11_amd64.deb
+      sha256: 4d6ed682972bddf62af158a06d68a0dda497e421423b7ca92fb450b3d9ceaac9
+      size_bytes: 2148
+    - filename: apt/libjpeg-turbo8_2.1.5-2ubuntu2_amd64.deb
+      sha256: f68b5b23bc8a1688fb787d2aed7e2cdf895a73022f6a5025e183162dac4500b2
+      size_bytes: 149982
+    - filename: apt/libjson-c5_0.17-1build1_amd64.deb
+      sha256: 3ac608d78e9e981e14ba7ceb141a46e3dd3ae8d6dbb3a7ecafd2698fe9930584
+      size_bytes: 35340
+    - filename: apt/libk5crypto3_1.20.1-6ubuntu2.6_amd64.deb
+      sha256: 5c3eb1fc954af26da4190204098af489eb558552a89cf5cf099e0ea6aab157c5
+      size_bytes: 81970
+    - filename: apt/libkeyutils1_1.6.3-3build1_amd64.deb
+      sha256: 0679f198b0128179e46cdf956fb2022c23c758664c00bc8efa0382d509683a8a
+      size_bytes: 9490
+    - filename: apt/libkmod2_31+20240202-2ubuntu7.1_amd64.deb
+      sha256: dc0ec176cd2930ae6dae3e44e35b5804f772a7e38207331df20747bc6ee142eb
+      size_bytes: 51722
+    - filename: apt/libkrb5-3_1.20.1-6ubuntu2.6_amd64.deb
+      sha256: e8c20d16598108c88495fde116eadb4be568f47ae2ab93cabccfbb220e6e926b
+      size_bytes: 347562
+    - filename: apt/libkrb5support0_1.20.1-6ubuntu2.6_amd64.deb
+      sha256: e649ebef274cce86e6133144ce5f587db101f06828dbd88cb73350fe98160b0e
+      size_bytes: 34394
+    - filename: apt/libksba8_1.6.6-1build1_amd64.deb
+      sha256: 7b0e1f2c2c5ee7b3ed1c1558c6338c6cdd77d27280020abc3e1f3159cf564106
+      size_bytes: 121958
+    - filename: apt/liblcms2-2_2.14-2build1_amd64.deb
+      sha256: 90ab2d12239581491bb4ca6fe8670f31ac6e11eecc3538bf6156733bf442e198
+      size_bytes: 160644
+    - filename: apt/libldap2_2.6.10+dfsg-0ubuntu0.24.04.1_amd64.deb
+      sha256: 7f3f8e565401256f21d5aa562c9f92dbb63537b73aaea6283e4db5264f1598f4
+      size_bytes: 197620
+    - filename: apt/liblerc4_4.0.0+ds-4ubuntu2_amd64.deb
+      sha256: f1b9dbfa28c56564f6b544f3757f5f3f4d549ce9962f39e897812c23b0a5d0e7
+      size_bytes: 179378
+    - filename: apt/libllvm20_1%3a20.1.2-0ubuntu1~24.04.2_amd64.deb
+      sha256: 5b3e700a47b140f049959f4d30f089a62f4ffc4fee27d8ef4c8946db2aaa828c
+      size_bytes: 30550044
+    - filename: apt/liblz4-1_1.9.4-1build1.1_amd64.deb
+      sha256: 319331270d5cc52d5ebffe51c941d7b01b432bc402c2924b557209a64d4ecbad
+      size_bytes: 63062
+    - filename: apt/liblzma5_5.6.1+really5.4.5-1ubuntu0.2_amd64.deb
+      sha256: 4c31cc76391ca47dbb4585edc740728f43fe7b6b090f5b3947fc8072db698aca
+      size_bytes: 127160
+    - filename: apt/liblzo2-2_2.10-2build4_amd64.deb
+      sha256: e0d13be155013138b8db4cfe68212b866080af661c78302c2eab0d2f9d0d454e
+      size_bytes: 54148
+    - filename: apt/libmd0_1.1.0-2build1.1_amd64.deb
+      sha256: e5ba01d3c41f256aaf57ec59aa0554857162e3e7f97cdfbff1ed2c0e8d720ee7
+      size_bytes: 26976
+    - filename: apt/libmd4c0_0.4.8-1build1_amd64.deb
+      sha256: 34fd2e7a7aa62ada2597cffd4529f086cb5058a6d7ac0048695254bd9fd882d7
+      size_bytes: 42274
+    - filename: apt/libmnl0_1.0.5-2build1_amd64.deb
+      sha256: 5170658bf0eaf54a8c7d53061ca6b47a6cf33a83543a75fa521de7046cb7197a
+      size_bytes: 12272
+    - filename: apt/libmount1_2.39.3-9ubuntu6.5_amd64.deb
+      sha256: 7ca31424fbfc96fbf245e6fe232fd2d2ec74169ca1add968e1987bece5bc0d1f
+      size_bytes: 133954
+    - filename: apt/libmtdev1t64_1.1.6-1.1build1_amd64.deb
+      sha256: fa86080d67defabc076ead97d86ccff14c906d21fe4cc1625ba73a8cf8022dfa
+      size_bytes: 14380
+    - filename: apt/libncursesw6_6.4+20240113-1ubuntu2_amd64.deb
+      sha256: 96d1e64bb1a80f2005f41c4112d10e4756a222a6c245e9383fc8da924bd40bf9
+      size_bytes: 147842
+    - filename: apt/libnetfilter-conntrack3_1.0.9-6build1_amd64.deb
+      sha256: 6d32a4c4618eb7d6c0d989591d28637a9acdfa86dfe22e42e9ac9cc25d882a97
+      size_bytes: 45218
+    - filename: apt/libnettle8t64_3.9.1-2.2build1.1_amd64.deb
+      sha256: 6d97fbc1972633083f08f51ccab433606c97bbceb897c631c66495117ca3406f
+      size_bytes: 181636
+    - filename: apt/libnewt0.52_0.52.24-2ubuntu2_amd64.deb
+      sha256: 1b55b7bb5a89bab48a643e0eae1e7468d21826d654eb32b393d20c97868087f7
+      size_bytes: 46774
+    - filename: apt/libnfnetlink0_1.0.2-2build1_amd64.deb
+      sha256: f557a287af2ca00df5dbf632c6b77d77479139ffb51c83e3de9766eb609b5d63
+      size_bytes: 14810
+    - filename: apt/libnftables1_1.0.9-1ubuntu0.1_amd64.deb
+      sha256: fcaee001747a6adaa0cd9337fef437b3aa7a7a6d5246b62fbd4784d3d6a5009e
+      size_bytes: 358574
+    - filename: apt/libnftnl11_1.2.6-2build1_amd64.deb
+      sha256: e5bde5c9cbb95082700011f0b7ef2c0a41900b0a9fd7434f6e90448e2a7b4e50
+      size_bytes: 65986
+    - filename: apt/libnghttp2-14_1.59.0-1ubuntu0.2_amd64.deb
+      sha256: 2f8a90953ba5c5671249fb3e414582ede4a7111872eaaa08119a560a29c65a1f
+      size_bytes: 74342
+    - filename: apt/libnpth0t64_1.6-3.1build1_amd64.deb
+      sha256: b380eca1221a9ac855427652452801c5ca9161dd69e12446d300524eba00944e
+      size_bytes: 8378
+    - filename: apt/libp11-kit0_0.25.3-4ubuntu2.1_amd64.deb
+      sha256: 151a0e70407faef701df3a283bca0b2f2e7aeb2b73e5682101bb5543e8213d98
+      size_bytes: 299534
+    - filename: apt/libpackagekit-glib2-18_1.2.8-2ubuntu1.4_amd64.deb
+      sha256: fa59dadcc12a69c9c317dadf2b65ecdf9c0412de2bf22d20cbef10b38162195e
+      size_bytes: 120250
+    - filename: apt/libpam0g_1.5.3-5ubuntu5.5_amd64.deb
+      sha256: e751722aed2c92b50a88db0db2796e6c7071424ad6ebbc92c7ebba37b388c3e7
+      size_bytes: 67818
+    - filename: apt/libpam-modules_1.5.3-5ubuntu5.5_amd64.deb
+      sha256: 253645e44b206fe747f9bfd348c02ae19e8fafa568d0421f6d04e03ba0a5ab78
+      size_bytes: 285870
+    - filename: apt/libpam-modules-bin_1.5.3-5ubuntu5.5_amd64.deb
+      sha256: 5619fb1922de25623f6988b8a599553840a9e6fa17075c982de7a959ce0cd80e
+      size_bytes: 51850
+    - filename: apt/libpam-runtime_1.5.3-5ubuntu5.5_all.deb
+      sha256: f637c92621811f238f185f9072f9a03090e783e91eaa4817ef148822ffc952d0
+      size_bytes: 40754
+    - filename: apt/libpam-systemd_255.4-1ubuntu8.14_amd64.deb
+      sha256: bcdda8a63e07718e2608b00474bf40fde28bb2d152f77655604e74b7e6f446dc
+      size_bytes: 235246
+    - filename: apt/libpango-1.0-0_1.52.1+ds-1build1_amd64.deb
+      sha256: 09dfa5c881ab273ec6bc1830adcefdc407fcd619316e68fb26ca3a23d0fc9f54
+      size_bytes: 230606
+    - filename: apt/libpangocairo-1.0-0_1.52.1+ds-1build1_amd64.deb
+      sha256: 98cf5fc9076c2911fe20dfc1e41cd8f686a2bb5d539b1105fab18105b0db1376
+      size_bytes: 28828
+    - filename: apt/libpangoft2-1.0-0_1.52.1+ds-1build1_amd64.deb
+      sha256: cc6bc9d86ef5f329edacaa4895232d8a9b8f95c5cbc77c3c460a3f64cecc213d
+      size_bytes: 42532
+    - filename: apt/libpciaccess0_0.17-3ubuntu0.24.04.2_amd64.deb
+      sha256: c0d818c0ebb2e61f4c0d75f532a8f2e1a48289fe1132f4936c790ed0fa164883
+      size_bytes: 18940
+    - filename: apt/libpcre2-16-0_10.42-4ubuntu2.1_amd64.deb
+      sha256: 06bba768fd16e6ea6f744114a0c500d9f5d98ee82630edf0d8a54f2175d3921b
+      size_bytes: 210092
+    - filename: apt/libpcre2-8-0_10.42-4ubuntu2.1_amd64.deb
+      sha256: 110a797a57673d3ee497a141cf988199258058c57525799c63194d81822529a0
+      size_bytes: 226662
+    - filename: apt/libperl5.38t64_5.38.2-3.2ubuntu0.2_amd64.deb
+      sha256: 71a30882e150a73905baa895ed0b0acaea0e3739346cbfa3934bcc3ad3172628
+      size_bytes: 4873758
+    - filename: apt/libpixman-1-0_0.42.2-1build1_amd64.deb
+      sha256: d9c2931c4c424615eeab9dd5ae08bfc608b84e803c1d3ccddf319270db213421
+      size_bytes: 279306
+    - filename: apt/libpng16-16t64_1.6.43-5ubuntu0.5_amd64.deb
+      sha256: 074c954a7a01069c3b3db9146911666f6ac75c1277e034eba901ee274554dadc
+      size_bytes: 187904
+    - filename: apt/libpolkit-agent-1-0_124-2ubuntu1.24.04.2_amd64.deb
+      sha256: 2e358674c0a778a7b5ff00bc3089b49014fc50d1a87d96971aa133934b296147
+      size_bytes: 17446
+    - filename: apt/libpolkit-gobject-1-0_124-2ubuntu1.24.04.2_amd64.deb
+      sha256: 5c2e4e232f50e219f192adeed760af0d3da8d20638839ba3a1d264d803a463a6
+      size_bytes: 49122
+    - filename: apt/libproc2-0_2%3a4.0.4-4ubuntu3.2_amd64.deb
+      sha256: 52684291f6bb77a0a72c893f5c00c0742c30105d93e1f885566f4521b1f97946
+      size_bytes: 59454
+    - filename: apt/libpsl5t64_0.21.2-1.1build1_amd64.deb
+      sha256: a6c85d1303ae90b6a3209d73c4f047f82c27cdc963c48adfd95dd7abca64f039
+      size_bytes: 57072
+    - filename: apt/libpython3.12-minimal_3.12.3-1ubuntu0.12_amd64.deb
+      sha256: ce876f33bacdb10114390772f070c0283efbe1c1b7a84ef11f0453ef450e413c
+      size_bytes: 836932
+    - filename: apt/libpython3.12-stdlib_3.12.3-1ubuntu0.12_amd64.deb
+      sha256: 3e10e92f678e8a39284808c4767a55bdc79ecb531f90e8f217dddb683b013fe8
+      size_bytes: 2068622
+    - filename: apt/libpython3-stdlib_3.12.3-0ubuntu2.1_amd64.deb
+      sha256: 57ebb378c59d2f9ef479bee0abc933c560878cc10e2c3af8e05d6fdb2ed63da4
+      size_bytes: 10080
+    - filename: apt/libqt5core5t64_5.15.13+dfsg-1ubuntu1+esm1_amd64.deb
+      sha256: 5a8c244af167d26281ecfe2d9afc448ae0b975ce68827e59793e98d196d38717
+      size_bytes: 2009998
+    - filename: apt/libqt5dbus5t64_5.15.13+dfsg-1ubuntu1+esm1_amd64.deb
+      sha256: 6979ae84bc4562bbc7c67ed8f5e4df1bba0332350706d2e04ce20a6e68701f21
+      size_bytes: 220030
+    - filename: apt/libqt5gui5-gles_5.15.13+dfsg-1_amd64.deb
+      sha256: 61e4ef12fc030ab8037ea5435f621f62ce941803aa941332d63af14228289d80
+      size_bytes: 3700652
+    - filename: apt/libqt5gui5t64_5.15.13+dfsg-1ubuntu1+esm1_amd64.deb
+      sha256: 7ab185d201bc7fa1d79841b2207cee52b2e3d96aad5637753cd6cd212d3ee600
+      size_bytes: 3747612
+    - filename: apt/libqt5network5t64_5.15.13+dfsg-1ubuntu1+esm1_amd64.deb
+      sha256: 490997e4fd025a8d6e076e229fac629fced2f636c54747b683876a8dd1960690
+      size_bytes: 723284
+    - filename: apt/libqt5widgets5t64_5.15.13+dfsg-1ubuntu1+esm1_amd64.deb
+      sha256: 09f9e178c2385586e34495c107cca51cde4a1aa9f89e3bee78d82b3df4b1a8b9
+      size_bytes: 2551944
+    - filename: apt/libreadline8t64_8.2-4build1_amd64.deb
+      sha256: 563977a16df03b611f5239cc1e9a0426e86479fcc616b5c9e200ea32063119e5
+      size_bytes: 152856
+    - filename: apt/librsvg2-2_2.58.0+dfsg-1build1_amd64.deb
+      sha256: 47178c8632e70a0fd2c620e87c5d4d873b07f76c16e2e3c642693f8176a0af88
+      size_bytes: 2135414
+    - filename: apt/librsvg2-common_2.58.0+dfsg-1build1_amd64.deb
+      sha256: 9bd433fc5af715d9f14d5ca1d083218660358507f586f771c36e30f59c831407
+      size_bytes: 11784
+    - filename: apt/librtmp1_2.4+20151223.gitfa8646d.1-2build7_amd64.deb
+      sha256: 967a39dbc14236d1580ede01d80fd78444668572e716734e1ac66c175052594e
+      size_bytes: 56342
+    - filename: apt/libsasl2-2_2.1.28+dfsg1-5ubuntu3.1_amd64.deb
+      sha256: eda097f98dcb3a08b9ce157d6191d140e4885c1cba47b683c94b8ca45e88f458
+      size_bytes: 53194
+    - filename: apt/libsasl2-modules-db_2.1.28+dfsg1-5ubuntu3.1_amd64.deb
+      sha256: 1f13548b1774cd9c70c50b8c3267204a101334a4d2f979338896ba5a4c6f81b8
+      size_bytes: 20354
+    - filename: apt/libseccomp2_2.5.5-1ubuntu3.1_amd64.deb
+      sha256: 33fc96f1e008d27c042a3db9bcd16f7f4d49e866f7a3141b758a799328dbdc3f
+      size_bytes: 50424
+    - filename: apt/libsecret-1-0_0.21.4-1build3_amd64.deb
+      sha256: 7d7263ffc92c33042328f99c93433a846e8d9e549876dab18ba18606e6541ecd
+      size_bytes: 116332
+    - filename: apt/libsecret-common_0.21.4-1build3_all.deb
+      sha256: 41866e9026e451fd25a4cbe887fa56c43219f9f3eda88d1831452ba6d6b8bb5b
+      size_bytes: 4962
+    - filename: apt/libselinux1_3.5-2ubuntu2.1_amd64.deb
+      sha256: 6abaa6c26f46ef17764c4a753e0e84de1cdadde5634fd2987621fdc617988d19
+      size_bytes: 79660
+    - filename: apt/libsemanage2_3.5-1build5_amd64.deb
+      sha256: 56102dcbd410416d03c5ffb80958f54ac63936f4d9eb3f6a98964e680a82ce37
+      size_bytes: 93178
+    - filename: apt/libsemanage-common_3.5-1build5_all.deb
+      sha256: e10cd93f0b6941566de04b860b723df57ca3fe4a9255a73b2be0d1dc7df2850e
+      size_bytes: 10144
+    - filename: apt/libsensors5_1%3a3.6.0-9build1_amd64.deb
+      sha256: 515ed1fbe2bc99926c44fe10b1beb9c3510068c344adda334303098d669ba1e5
+      size_bytes: 26600
+    - filename: apt/libsensors-config_1%3a3.6.0-9build1_all.deb
+      sha256: 148103a436fd273dabfe0fe41dc54873df46227b59b2c7ac7339d7e2ddfd033b
+      size_bytes: 5546
+    - filename: apt/libsepol2_3.5-2build1_amd64.deb
+      sha256: 47272bab0c2fcc350431f9a8ae63afc49ce6d7e71e63c914639fbda6b1ca9f6a
+      size_bytes: 302950
+    - filename: apt/libsharpyuv0_1.3.2-0.4build3_amd64.deb
+      sha256: 4e1763494e5b9d34192313aa88e38201fc67b3f13ea96ca268d26401a3002791
+      size_bytes: 15786
+    - filename: apt/libslang2_2.3.3-3build2_amd64.deb
+      sha256: 352deab8d4dcb023ecffc766088d9c5420c36a3bef9ef5b1c9b173d1c3c88bd7
+      size_bytes: 505982
+    - filename: apt/libsm6_2%3a1.2.3-1build3_amd64.deb
+      sha256: 1d27ebc381b499075a28c504be4d7d424c63b6866354736ac7f8d25813860cdf
+      size_bytes: 15684
+    - filename: apt/libsmartcols1_2.39.3-9ubuntu6.5_amd64.deb
+      sha256: c0ab7426300c645ac84d195134143866bd0d6bd33831df3d63d5ab29994984ca
+      size_bytes: 65810
+    - filename: apt/libsqlite3-0_3.45.1-1ubuntu2.5_amd64.deb
+      sha256: 9e4569a5b992e70899527023ec1871b5abe92afb41c9eb53b38c2ccae056f6db
+      size_bytes: 701136
+    - filename: apt/libssh-4_0.10.6-2ubuntu0.4_amd64.deb
+      sha256: c8dcd54390e09aba855ec0565d22396dabe52896c47856cf040b9e1ad37d9ff9
+      size_bytes: 190218
+    - filename: apt/libssl3t64_3.0.13-0ubuntu3.7_amd64.deb
+      sha256: f9d19e6c1500cc58d90a001ef299ffa3b711e17dc5e95bf9962fb5fe1899264a
+      size_bytes: 1941650
+    - filename: apt/libssl-dev_3.0.13-0ubuntu3.7_amd64.deb
+      sha256: 5b58822de937202c6c7881f63ac6ccc1933109953075c9d158b45afcac90cbf2
+      size_bytes: 2406846
+    - filename: apt/libstdc++6_14.2.0-4ubuntu2~24.04.1_amd64.deb
+      sha256: a51f8de7829211db961a31f02158058ad1a95f92ac6d0a5dff6350e2821c54c0
+      size_bytes: 792064
+    - filename: apt/libstemmer0d_2.2.0-4build1_amd64.deb
+      sha256: 131d145e9b110df4b4b953b5ab7b95a6531fab86e6d4b461728a63860fe00d53
+      size_bytes: 160766
+    - filename: apt/libsystemd0_255.4-1ubuntu8.14_amd64.deb
+      sha256: 73e337b6f9e7e99ca670bda904d2df4e47a0d6afb1458d0023c805e6c4b275aa
+      size_bytes: 434972
+    - filename: apt/libsystemd-shared_255.4-1ubuntu8.14_amd64.deb
+      sha256: 7db519892e43a528a737cd4d3cb5617c4a4bc554938528e8caddaf182e45f279
+      size_bytes: 2074292
+    - filename: apt/libtasn1-6_4.19.0-3ubuntu0.24.04.2_amd64.deb
+      sha256: f82c9ad142f952ea523bda5bfca7bb0802af3a50b8c0f0dd9ec18cdfa104bde7
+      size_bytes: 44468
+    - filename: apt/libtextwrap1_0.1-17build1_amd64.deb
+      sha256: 1a0a3a8928b85dae9aaa61fddfa30a025fc3c81bea1d4d43374565ad8476e6b6
+      size_bytes: 9468
+    - filename: apt/libthai0_0.1.29-2build1_amd64.deb
+      sha256: 5ada7045c5f84a4b774e6449151800aa6470e8d01dc9d6124ef4a44ae6af5508
+      size_bytes: 18914
+    - filename: apt/libthai-data_0.1.29-2build1_all.deb
+      sha256: 6035d4a714290b97816bed7f3bf64921c6358ddb84d1dacdddccdc1cf39bffb7
+      size_bytes: 158016
+    - filename: apt/libtiff6_4.5.1+git230720-4ubuntu2.5_amd64.deb
+      sha256: 564cdf59dda5e1a826c51b5868ee2785fffa26ee5a7bad95bc5e8c8224c931b8
+      size_bytes: 199612
+    - filename: apt/libtinfo6_6.4+20240113-1ubuntu2_amd64.deb
+      sha256: 53e1e1753729d04cf65b05e6e58abe06e2bb76cc07eff0e1b2a638a638ca209b
+      size_bytes: 107794
+    - filename: apt/libudev1_255.4-1ubuntu8.14_amd64.deb
+      sha256: 961846b156a03031f14db6cd7e6899f1176adc2644f3bd8db0e17f1f13a75258
+      size_bytes: 176840
+    - filename: apt/libunistring5_1.1-2build1.1_amd64.deb
+      sha256: 203d7657b5f54633fba1a9c9b784d556ef83c9f6787b3185ba55a88e07b865a3
+      size_bytes: 535554
+    - filename: apt/libunwind8_1.6.2-3build1.1_amd64.deb
+      sha256: 825cb8724bb6b3389587e30c03ab3381f56a2422cafe3b1945f37e055c65e942
+      size_bytes: 55254
+    - filename: apt/libuuid1_2.39.3-9ubuntu6.5_amd64.deb
+      sha256: 2f801582b5f0e7cb0c2d3d3651193e69f4540ee3b7dcb6079a3562f0880b9edf
+      size_bytes: 36058
+    - filename: apt/libvulkan1_1.3.275.0-1build1_amd64.deb
+      sha256: ccf4fe8f4461442f27ea2494c7ae650b60bd396fec2688b0c44a27d66a222f74
+      size_bytes: 142010
+    - filename: apt/libwacom9_2.10.0-2_amd64.deb
+      sha256: 87c707e4e7cbef1080b7c6cfb14acb0e5b0a4b07b19ce5545923952fbcf82298
+      size_bytes: 23874
+    - filename: apt/libwacom-common_2.10.0-2_all.deb
+      sha256: 416099ceae870ec8ce13f875dfdf71f81a884b3641e404a74eafd378c15a78b4
+      size_bytes: 63364
+    - filename: apt/libwayland-client0_1.22.0-2.1build1_amd64.deb
+      sha256: 6af0aed41d75149bea22fa468f01eb058ffe3e35ef07ff2f13fb88a90387881d
+      size_bytes: 26406
+    - filename: apt/libwayland-cursor0_1.22.0-2.1build1_amd64.deb
+      sha256: 29c20da27e8e37c984cf0518635c11cd0441f4cb6a2919a9f6eee1809171d327
+      size_bytes: 10406
+    - filename: apt/libwayland-egl1_1.22.0-2.1build1_amd64.deb
+      sha256: 76cd17d2776428e0a0551b8f8fd954eeb3d39ca8ed2f88a38a5e4ce3ce3b2f16
+      size_bytes: 5628
+    - filename: apt/libwebp7_1.3.2-0.4build3_amd64.deb
+      sha256: c86f6439f0bbc531f7199794654231f3b29327d6585958511b958795d51c2484
+      size_bytes: 230220
+    - filename: apt/libx11-6_2%3a1.8.7-1build1_amd64.deb
+      sha256: 397f84347476a3c5786b39f3ff6f0f82866eb3d8be6d2ad3efeadf019efe5b80
+      size_bytes: 649780
+    - filename: apt/libx11-data_2%3a1.8.7-1build1_all.deb
+      sha256: 9ae01f7747e7f479394c697c55acf11d3baf139e8e54b7c4adfb55ef9c50de08
+      size_bytes: 115446
+    - filename: apt/libx11-xcb1_2%3a1.8.7-1build1_amd64.deb
+      sha256: 7d0d357e47cd6e1042be34da1d37cea313420b000035e71e855087c8268ab127
+      size_bytes: 7800
+    - filename: apt/libxau6_1%3a1.0.9-1build6_amd64.deb
+      sha256: e40d29f1d1a62393bacaedebe0da3d9006084152a9f7e5e029293f08ce1c5c80
+      size_bytes: 7160
+    - filename: apt/libxcb1_1.15-1ubuntu2_amd64.deb
+      sha256: e1c6611d11ad7398326f1bf028afc34c3b14c51d917a3426b966ed4b9687fa58
+      size_bytes: 47730
+    - filename: apt/libxcb-dri3-0_1.15-1ubuntu2_amd64.deb
+      sha256: 3d3d0e95e56ae16010a84883196b8153cba62d6831f9aaee2a68c46f20c7c004
+      size_bytes: 7142
+    - filename: apt/libxcb-glx0_1.15-1ubuntu2_amd64.deb
+      sha256: d07cde26c70fe92df7c327928371e495cc4570fed2d6518758a5db5715cb34c1
+      size_bytes: 24774
+    - filename: apt/libxcb-icccm4_0.4.1-1.1build3_amd64.deb
+      sha256: 9e0e349f3904cd5bc07fea45498c4d03527a5d1178edd78555e84fdbd3793708
+      size_bytes: 10788
+    - filename: apt/libxcb-image0_0.4.0-2build1_amd64.deb
+      sha256: 6af300eeef5523aa0d8dbfab3a23c1fe7006ecc19f8abdc5c636d734d7bb5287
+      size_bytes: 10810
+    - filename: apt/libxcb-keysyms1_0.4.0-1build4_amd64.deb
+      sha256: 6c261aae923175b88a032018c530873ffb40f2bf96b045fdda42bd8bc74cb1c3
+      size_bytes: 7956
+    - filename: apt/libxcb-present0_1.15-1ubuntu2_amd64.deb
+      sha256: 2e36e6557e87dbfd64df3143cbf81a4f75c3447501a545b4730511d228b0dd17
+      size_bytes: 5676
+    - filename: apt/libxcb-randr0_1.15-1ubuntu2_amd64.deb
+      sha256: b5cb519823a05a617b543dc9b6a9289b7648b20048244abe021caa706309835a
+      size_bytes: 17862
+    - filename: apt/libxcb-render0_1.15-1ubuntu2_amd64.deb
+      sha256: 7d83a0668b1a693b5ea2e496206e8371fb6beda4c54a2b4b3902005915c272c5
+      size_bytes: 16230
+    - filename: apt/libxcb-render-util0_0.3.9-1build4_amd64.deb
+      sha256: 95d895ceb921e38e4edd85555b407b1a0564d8ad097ec7566e261764ce27787b
+      size_bytes: 9608
+    - filename: apt/libxcb-shape0_1.15-1ubuntu2_amd64.deb
+      sha256: ad57fed687ec9c2a4808b8e30ab1753d57daeddc9ad7fb883bfa0701f6da57c8
+      size_bytes: 6100
+    - filename: apt/libxcb-shm0_1.15-1ubuntu2_amd64.deb
+      sha256: 229d1280d459f1ba44c22939d3f9b61d9d20932d9a646b3fe4ce50be4cdf2325
+      size_bytes: 5756
+    - filename: apt/libxcb-sync1_1.15-1ubuntu2_amd64.deb
+      sha256: 14286795a258593259923619073e50c15345673befae2733f7b0577b07359aa8
+      size_bytes: 9312
+    - filename: apt/libxcb-util1_0.4.0-1build3_amd64.deb
+      sha256: b6ff05729519514bddcbcd460f8be7e55c986daa5a97ecdc612b2815614194ab
+      size_bytes: 10678
+    - filename: apt/libxcb-xfixes0_1.15-1ubuntu2_amd64.deb
+      sha256: 0b2ab64af92a71e3d1a35e3c819880ee28d04bfac81360df68ae8d8e9663ebd2
+      size_bytes: 10190
+    - filename: apt/libxcb-xinerama0_1.15-1ubuntu2_amd64.deb
+      sha256: 9fea44960e39646a22139f4daca03c3d26190e0dcecf2300b665ed23ea316b54
+      size_bytes: 5410
+    - filename: apt/libxcb-xinput0_1.15-1ubuntu2_amd64.deb
+      sha256: 8ed274ebfa657a079895a0b60b399394db29305f4ad3fc29dc10558bed14bd7a
+      size_bytes: 33240
+    - filename: apt/libxcb-xkb1_1.15-1ubuntu2_amd64.deb
+      sha256: 53bc0a58834c981fa8ce5c3ab6195387e5c8a417039d82cc7a8b49724fa53228
+      size_bytes: 32302
+    - filename: apt/libxcomposite1_1%3a0.4.5-1build3_amd64.deb
+      sha256: a12d5d9ae70b798cbbf284080eae32b87367561fc9c24492f641b8860ac0f308
+      size_bytes: 6320
+    - filename: apt/libxcursor1_1%3a1.2.1-1build1_amd64.deb
+      sha256: 1a4beee621454e42fe0d2f4e1633611126e43d891f0aec28e4a06744f6e9f04d
+      size_bytes: 20748
+    - filename: apt/libxdamage1_1%3a1.1.6-1build1_amd64.deb
+      sha256: 6891faf325e996ebd28ef53ebb9c043dc96f67327500490affc3e89d366d35ed
+      size_bytes: 6150
+    - filename: apt/libxdmcp6_1%3a1.1.3-0ubuntu6_amd64.deb
+      sha256: bcd336fce11ce2a45f34d0f95e6980af22529f22147e8f98c156e5cee8ee42bb
+      size_bytes: 10254
+    - filename: apt/libxext6_2%3a1.3.4-1build2_amd64.deb
+      sha256: 45783969a9ece9d7b7b733b8c60981584c53c6bc5ee3b42d295d2f80d1285679
+      size_bytes: 30406
+    - filename: apt/libxfixes3_1%3a6.0.0-2build1_amd64.deb
+      sha256: 0ee1015cccd063249e01c0cd0bf45f513c8ac9a1e5e485070c12e69192455e4a
+      size_bytes: 10764
+    - filename: apt/libxft2_2.3.6-1build1_amd64.deb
+      sha256: b4f4f3255c0b8773b260c61cbe20ee7c63799cfc0e4e389fa58375dd480b093a
+      size_bytes: 45280
+    - filename: apt/libxi6_2%3a1.8.1-1build1_amd64.deb
+      sha256: 0ea7acb5e8a8ce4d6653b30e03a319bfe136db7bfb5ee7cad34c2aa1272ea8d9
+      size_bytes: 32404
+    - filename: apt/libxinerama1_2%3a1.1.4-3build1_amd64.deb
+      sha256: c8c93a3efdbb06e314f41bf48af4ca3652e4a3826bab5b9e00887660e619f239
+      size_bytes: 6396
+    - filename: apt/libxkbcommon0_1.6.0-1build1_amd64.deb
+      sha256: 2b9caeb423efb540296a1cb20b872cc630c23908407ecb5c1c787a617622d664
+      size_bytes: 121944
+    - filename: apt/libxkbcommon-x11-0_1.6.0-1build1_amd64.deb
+      sha256: 3befe840ce612ddfc0998d8610c6eed295726722a78e75cd08520bbd75065a23
+      size_bytes: 14536
+    - filename: apt/libxml2_2.9.14+dfsg-1.3ubuntu3.7_amd64.deb
+      sha256: 74ab8be7aa487e5cc7d9d228212f538ff96658afcb080335c02fe0f3e384ff7c
+      size_bytes: 763806
+    - filename: apt/libxmlb2_0.3.18-1_amd64.deb
+      sha256: 8f501eb2ace5d4432f34120448a16d121f8ac105d606988cf42eb4e4f9c548c7
+      size_bytes: 67690
+    - filename: apt/libxrandr2_2%3a1.5.2-2build1_amd64.deb
+      sha256: f2955a5e594f5724b58ad241d9231ea191cb36574a0d5e5ca6b661cd41d6256d
+      size_bytes: 19670
+    - filename: apt/libxrender1_1%3a0.9.10-1.1build1_amd64.deb
+      sha256: d70bd831aebe8d4834b5dd2ed98df26dd6bd27f1042c47543bd7f66df1ae22ea
+      size_bytes: 19016
+    - filename: apt/libxshmfence1_1.3-1build5_amd64.deb
+      sha256: bc6de4bfaf9050a8ba83d4bcfb114131b081084a7972c03417f8523d52b5c742
+      size_bytes: 4764
+    - filename: apt/libxtables12_1.8.10-3ubuntu2_amd64.deb
+      sha256: c94063499d1b0b336f39607107efb7de95d52a5d4e7e6a9368a5f7308f05b714
+      size_bytes: 35704
+    - filename: apt/libxxf86vm1_1%3a1.1.4-1build4_amd64.deb
+      sha256: 48b2799f52b86505d2bc91dcb1bfa6536545635b9849cb693d274d934116a8da
+      size_bytes: 9282
+    - filename: apt/libxxhash0_0.8.2-2build1_amd64.deb
+      sha256: 75de256c2d162dfc541beb69a83f025742cd13329262af9059eff3ca42a53239
+      size_bytes: 24056
+    - filename: apt/libyaml-0-2_0.2.5-1build1_amd64.deb
+      sha256: f5271b120d936dcc7ddf17b9e718df41d55386a6075555d0c634925eaef0b2ac
+      size_bytes: 51492
+    - filename: apt/libzstd1_1.5.5+dfsg2-2build1.1_amd64.deb
+      sha256: dfcf25061e07aad7efd3f4f880ba5ad4d4d09ebe7fc8cc77ab6b8a161d6d4727
+      size_bytes: 299472
+    - filename: apt/lsb-base_11.6_all.deb
+      sha256: 08a563e3c1984acdb295f12b77b4ec18d2ccf52fd03280a5bea29e506a3350ee
+      size_bytes: 4606
+    - filename: apt/lsb-release_12.0-2_all.deb
+      sha256: 0ae566092f2d6f3000ce25a7a68497a97b637abf8dc25cbdf961c8ee66e562a7
+      size_bytes: 6564
+    - filename: apt/media-types_10.1.0_all.deb
+      sha256: 31bfb7eec55ab6d34a50ba995150e1498d4cb897714085d8025e330d3b529747
+      size_bytes: 27474
+    - filename: apt/mesa-libgallium_25.2.8-0ubuntu0.24.04.1_amd64.deb
+      sha256: bdf63ecd7a1314dff98378ca9177f36716e3380ba3a011b1754c05d9f3b81c68
+      size_bytes: 10783324
+    - filename: apt/mew-beta-bin_7.0.50~6.8+0.20221129-4_amd64.deb
+      sha256: 7248f9b648765b29cc640468e7b2280ca0953d3cacd85b2641b6115b63290ed9
+      size_bytes: 43478
+    - filename: apt/mew-bin_1%3a6.8-17_amd64.deb
+      sha256: 6516c4f8b0b8fb2c1bd8f029c1f17333d93074a0892ce6ac4fbbad21a00e613f
+      size_bytes: 43414
+    - filename: apt/mount_2.39.3-9ubuntu6.5_amd64.deb
+      sha256: 84d1eeed7c94f51165c1fe9e19aa6bafdc0629d35337efd92827c260c2a7be02
+      size_bytes: 118262
+    - filename: apt/netbase_6.4_all.deb
+      sha256: 8cdbc9c3dca01e660759bf9d840f72e45ac72faf5d19ca1faecacaf6a60c1a87
+      size_bytes: 13112
+    - filename: apt/nftables_1.0.9-1ubuntu0.1_amd64.deb
+      sha256: d648859fccde3c17b8b9b89993427564f91f394a39306db1f67bd5ea3ac42c6e
+      size_bytes: 69842
+    - filename: apt/openssl_3.0.13-0ubuntu3.7_amd64.deb
+      sha256: 4c4c4fced6c322e0e77a7b3eef4007402f1fc8d4793dfa8edcb463a60da2636d
+      size_bytes: 1003108
+    - filename: apt/opensysusers_0.7.3-2_all.deb
+      sha256: 91619154fa19c9d01a9081d098909e8020301ae17134a54587dc8e6c99161617
+      size_bytes: 14352
+    - filename: apt/packagekit_1.2.8-2ubuntu1.4_amd64.deb
+      sha256: 86568388e98ca1e8b7a683ff9efdb267be3729028a9392eb0d10d40af7060f17
+      size_bytes: 433734
+    - filename: apt/passwd_1%3a4.13+dfsg1-4ubuntu3.2_amd64.deb
+      sha256: 139b51228c8065eefa3051f649d8480eb986f1cf629448e49d2eaf9813318412
+      size_bytes: 844580
+    - filename: apt/perl_5.38.2-3.2ubuntu0.2_amd64.deb
+      sha256: 6c4e125792e09d55670a132f1c38b740068b3c7b6b0c6a74abe6c3da981f3a61
+      size_bytes: 231394
+    - filename: apt/perl-base_5.38.2-3.2ubuntu0.2_amd64.deb
+      sha256: 526790098bf711ca4fa21cfdf334acdb9cd8e59d3b5732174ceca8ebc8eba98b
+      size_bytes: 1826838
+    - filename: apt/perl-modules-5.38_5.38.2-3.2ubuntu0.2_all.deb
+      sha256: c17e0be76f77a8c15b3217cf9cb58ca63f6cc1974044d2fa4abb33ed7ed7ce1e
+      size_bytes: 3109976
+    - filename: apt/pinentry-curses_1.2.1-3ubuntu5_amd64.deb
+      sha256: d3df9109d1e8e4ca05630f3a6fb7d2231f71d97fc4205d0681e1c421cc77ce41
+      size_bytes: 35244
+    - filename: apt/pinentry-fltk_1.2.1-3ubuntu5_amd64.deb
+      sha256: 964d2e762154269dcfc38a3baac5a0c10f5850a0a1cda13c0d0f2cfd48d29b9d
+      size_bytes: 43446
+    - filename: apt/pinentry-gnome3_1.2.1-3ubuntu5_amd64.deb
+      sha256: cb9fdd783296e76d6869a3443d6b6cd5e1b48420dd122e3d7f9a9e77911c5797
+      size_bytes: 38252
+    - filename: apt/pinentry-gtk2_1.2.1-3ubuntu5_amd64.deb
+      sha256: 220d22f50606e477f0a46d52aa8d95b4692c476fb74ae8ddc73945f6856fec30
+      size_bytes: 41428
+    - filename: apt/pinentry-qt_1.2.1-3ubuntu5_amd64.deb
+      sha256: 9f6b4927e2f7003c3b3f7e4ab9d2339edcf2ac9b308db8dd6ba2d32aebd0bc6c
+      size_bytes: 71162
+    - filename: apt/pinentry-tty_1.2.1-3ubuntu5_amd64.deb
+      sha256: 0f875bbf7b48867d8698b51a09334f6b2c414267e3a7c421de5955aea5087429
+      size_bytes: 30356
+    - filename: apt/polkitd_124-2ubuntu1.24.04.2_amd64.deb
+      sha256: 11032d67d0a1c0a05f9f6079b21f3d53905dc493c7759bb4827f8ec00492bb73
+      size_bytes: 95244
+    - filename: apt/procps_2%3a4.0.4-4ubuntu3.2_amd64.deb
+      sha256: 73166776dc49e148f5c05813171fbc5db5703e7a1e981329b63bd201abc10f42
+      size_bytes: 707124
+    - filename: apt/python3.12_3.12.3-1ubuntu0.12_amd64.deb
+      sha256: 8a907c5a24a27d42da1ee569f8ec6e89f1d1e04ad485d838fd3c31d262d351c6
+      size_bytes: 650736
+    - filename: apt/python3.12-minimal_3.12.3-1ubuntu0.12_amd64.deb
+      sha256: c631951199b94b1945a127b8d042addae70a76a2ec398f60f83b593333218de3
+      size_bytes: 2333892
+    - filename: apt/python3_3.12.3-0ubuntu2.1_amd64.deb
+      sha256: e691b9cc40841c41bbdc50bd794c876cb1b1801306ea27b06e9a1458180df1e9
+      size_bytes: 23004
+    - filename: apt/python3-apt_2.7.7ubuntu5.2_amd64.deb
+      sha256: 2fc6f415b6dd0b61cda90cdf4cbfc5c386a0ccfdce40cc207ef44749822961be
+      size_bytes: 169242
+    - filename: apt/python3-blinker_1.7.0-1_all.deb
+      sha256: bb671458cb2ef3fca3ba8819e03d318a7821870ecd508de8921afcf0190356f2
+      size_bytes: 14312
+    - filename: apt/python3-certifi_2023.11.17-1_all.deb
+      sha256: 1a7ee6751fdc263319f4a2e559e8104f7a1e9af0cdb9926e5a145ebfec0dd148
+      size_bytes: 164904
+    - filename: apt/python3-cffi-backend_1.16.0-2build1_amd64.deb
+      sha256: a49f5e49b15146f6b2217cb3b6e6d62c503b02a7b271295e6d569d483ccdf687
+      size_bytes: 77292
+    - filename: apt/python3-chardet_5.2.0+dfsg-1_all.deb
+      sha256: 042ec127434ad634a1f312514680b8d0de7bd1e9733b255d93170a6bb843a043
+      size_bytes: 116904
+    - filename: apt/python3-cryptography_41.0.7-4ubuntu0.4_amd64.deb
+      sha256: 8fa33b608a16df054bf26ea3a653b1d512ab745d01e56fa938673ebc8c727060
+      size_bytes: 815068
+    - filename: apt/python3-dbus_1.3.2-5build3_amd64.deb
+      sha256: 45c94c9c4eda925a285dff3c1da01bd93b1467c8a83b10d764398ea8a8306419
+      size_bytes: 100066
+    - filename: apt/python3-distro_1.9.0-1_all.deb
+      sha256: eca0e60a27431b6f5d13067e9c78441d38c19108e4896da6f512adc6193d269a
+      size_bytes: 19012
+    - filename: apt/python3-docker_5.0.3-1ubuntu1.1_all.deb
+      sha256: 18dded4db70b1ba81c57d6be90e44c6c1167ed217f534e6980d30e403205bbf2
+      size_bytes: 89072
+    - filename: apt/python3-gi_3.48.2-1_amd64.deb
+      sha256: 2a69ad9d8ab3b5801725480986b9abbf83bd4a06c38450fe143f6689d19d4bd8
+      size_bytes: 232016
+    - filename: apt/python3-httplib2_0.20.4-3_all.deb
+      sha256: ebf9b56acf993a8505a76f064c3db5911744ceeb73d927f7a8b8548c9a9d0e21
+      size_bytes: 30360
+    - filename: apt/python3-idna_3.6-2ubuntu0.1_all.deb
+      sha256: 23cb4f5bba28d608acf4be3aaee2e0a928df9019236faf85b70b41ccfc240c69
+      size_bytes: 48984
+    - filename: apt/python3-importlib-metadata_4.12.0-1_all.deb
+      sha256: 2948c1f4ff8a03b5b9badaabd8b5033ed27533b34e61567ee1653d29ffab9891
+      size_bytes: 17822
+    - filename: apt/python3-jwt_2.7.0-1ubuntu0.1_all.deb
+      sha256: 038c42e9957c683e98834dbe405572e01c8c3aa0ebcd410beec33a260d0f0022
+      size_bytes: 20162
+    - filename: apt/python3-launchpadlib_1.11.0-6_all.deb
+      sha256: 5c6eacd5deae0da0839a614e7c80ec371a0b5d1482af96ca952ff71a33804979
+      size_bytes: 126540
+    - filename: apt/python3-lazr.restfulclient_0.14.6-1_all.deb
+      sha256: a8898636573c29de3e0f4b4de74281cc8a792ddedcb3cc5065c3ef952e6b53e1
+      size_bytes: 50788
+    - filename: apt/python3-lazr.uri_1.0.6-3_all.deb
+      sha256: 57efe41f87535afbb226f13755cf8a8e7d41f1c646ef70b982d93a4eb67ad782
+      size_bytes: 13492
+    - filename: apt/python3-minimal_3.12.3-0ubuntu2.1_amd64.deb
+      sha256: 9ba5dd55cdcf6121c147dc5cb87403169b5933e3a56da0de57774f2ce819cf06
+      size_bytes: 27442
+    - filename: apt/python3-more-itertools_10.2.0-1_all.deb
+      sha256: f6ad092c9568b044befdb7d6edfd3f9ea35ec31de01c26fafac20a32c0d7b3e1
+      size_bytes: 52906
+    - filename: apt/python3-oauthlib_3.2.2-1_all.deb
+      sha256: de2429f930ca495315d06eba8646ef5299c8cf3848f31afb948856639dca79ff
+      size_bytes: 89666
+    - filename: apt/python3-packaging_24.0-1_all.deb
+      sha256: decc936e9512c2de78fcf9e8d8459ce58952c40bf8bd1f06e62556d7fe887db6
+      size_bytes: 41094
+    - filename: apt/python3-pkg-resources_68.1.2-2ubuntu1.2_all.deb
+      sha256: 13caaa69d5ba8b02e90087d4bcef714c0581e591e820804d15d12f582055147a
+      size_bytes: 167914
+    - filename: apt/python3-pyparsing_3.1.1-1_all.deb
+      sha256: ec2395b1fe34a7a828f5cfabc4262217f6a86fb6ecb993fc18fbad3fc9edabba
+      size_bytes: 86192
+    - filename: apt/python3-requests_2.31.0+dfsg-1ubuntu1.1_all.deb
+      sha256: e9d0795c374b9be099042444bad44ba6c9cad70523744e4165b087c17d6d5fa0
+      size_bytes: 50784
+    - filename: apt/python3-six_1.16.0-4_all.deb
+      sha256: 54e6bb624a89feccbcf6bc16f0641b9aa24231dd1988d4e0b50f430b44a7a1ae
+      size_bytes: 12410
+    - filename: apt/python3-software-properties_0.99.49.4_all.deb
+      sha256: 856df960f441aee189ac1851d79838bc3dc3287b4f48a4c2d5e56d47b93d41bd
+      size_bytes: 30004
+    - filename: apt/python3-typing-extensions_4.10.0-1_all.deb
+      sha256: 6aa1ce3d7aff6a7a1b9f12bd6d7f2ecb9015a394f0be2688de5dde1d75c40e8a
+      size_bytes: 60676
+    - filename: apt/python3-urllib3_2.0.7-1ubuntu0.6_all.deb
+      sha256: 698965c2f5d70c41940f4ed676917afbee63bfe08457f97c68d627bb63c82dc8
+      size_bytes: 95232
+    - filename: apt/python3-wadllib_1.3.6-5_all.deb
+      sha256: 39d92d3a942b42a7a96e08ac09d20cbacb9138c407bdff02aec5ac4379159fe4
+      size_bytes: 35856
+    - filename: apt/python3-websocket_1.7.0-1_all.deb
+      sha256: 9cbf7b4e2cd9f663d53e7f24d8bdd0518e36a893c6a224edab788cfcf4b6dbdc
+      size_bytes: 38098
+    - filename: apt/python3-yaml_6.0.1-2build2_amd64.deb
+      sha256: 315e59500af855f23ee4e95525b99009bd798c4d2658af8eb4b2d66a8a91ec23
+      size_bytes: 122568
+    - filename: apt/python3-zipp_1.0.0-6ubuntu0.1_all.deb
+      sha256: 71fdd21f49318f76ce66df039ce11a79eaad87dc6b27aab1d6449273b177383c
+      size_bytes: 6774
+    - filename: apt/python-apt-common_2.7.7ubuntu5.2_all.deb
+      sha256: f038a5741b69c53fd2fe840d98940058950f623790fc934e3ab43906ec61b3f9
+      size_bytes: 20576
+    - filename: apt/readline-common_8.2-4build1_all.deb
+      sha256: 879bfd7f8a9bc4c0f7cdc777cdd8bc6de5f8c4a2ac80c060322a1b22f13504bb
+      size_bytes: 56484
+    - filename: apt/sed_4.9-2build1_amd64.deb
+      sha256: a09b856849cf36190f8cd39da33486b14bcaf81b592530b2f3236da17daaad2f
+      size_bytes: 193410
+    - filename: apt/sensible-utils_0.0.22_all.deb
+      sha256: 410c29ff82c6916d14e235b511287e67a45cb78d509b19aab48608acdc941254
+      size_bytes: 22462
+    - filename: apt/sgml-base_1.31_all.deb
+      sha256: b112268e2feca483398805e92e29e31b07592ddbc4bb021bd5f8f64f8042ca86
+      size_bytes: 11446
+    - filename: apt/shared-mime-info_2.4-4_amd64.deb
+      sha256: 7a774ea291ab99bfa987866c6b68e825531eeea7c8a732dd47d14cf480453fda
+      size_bytes: 473572
+    - filename: apt/software-properties-common_0.99.49.4_all.deb
+      sha256: 36e179d8d4f8be092b090db03c68dd4b9214c1917e4f5ab77b9ba06bf85723ae
+      size_bytes: 14438
+    - filename: apt/systemd_255.4-1ubuntu8.14_amd64.deb
+      sha256: 73bd62b6ac8be02b78dbf480ea204c2c1aec49e966b16fe13a2a9b4c165ee7ed
+      size_bytes: 3474716
+    - filename: apt/systemd-dev_255.4-1ubuntu8.14_all.deb
+      sha256: e0a6e3604fbeeba15861a21bc2f53bccb04414c0111b9bac7161413237ebc6bb
+      size_bytes: 106110
+    - filename: apt/systemd-standalone-sysusers_255.4-1ubuntu8.14_amd64.deb
+      sha256: dc27b3abcf7020e8ced9d35e7c0d2939f5ab85e0487cc111c28dc3593990caea
+      size_bytes: 203718
+    - filename: apt/systemd-sysv_255.4-1ubuntu8.14_amd64.deb
+      sha256: bea9b2450bae52ab393d82f1f5e026c81f1cdf760b1fe1367259b698f0b45799
+      size_bytes: 11886
+    - filename: apt/sysvinit-utils_3.08-6ubuntu3_amd64.deb
+      sha256: 03cf5c9c28a5d186fb7f5214e464f831ff28177695cbb61e66083237267a047e
+      size_bytes: 34170
+    - filename: apt/tar_1.35+dfsg-3build1_amd64.deb
+      sha256: 015b65ef176021c1846ec8b6152167d5d266c1949ec30ee3367e95fa2b2ead27
+      size_bytes: 253398
+    - filename: apt/tzdata_2026a-0ubuntu0.24.04.1_all.deb
+      sha256: 6098f2b57b40e9f4aea8b7d50fb9f989a98f938481546c915e9fa00d71aabc39
+      size_bytes: 279678
+    - filename: apt/ubuntu-mono_24.04-0ubuntu1_all.deb
+      sha256: 3a58114f10170b253d2a574db854fa1c4399565888c78f28bbe53ce889894cdb
+      size_bytes: 150904
+    - filename: apt/ucf_3.0043+nmu1_all.deb
+      sha256: 397e541af11db776ed7facf1674ee37b56e7de51348c9f077d7a283912c4b458
+      size_bytes: 56522
+    - filename: apt/ufw_0.36.2-6_all.deb
+      sha256: 096eb403ecaf6740d160bb306970f025222ef71324319cc1cb78d06dfa462ef1
+      size_bytes: 169082
+    - filename: apt/unzip_6.0-28ubuntu4.1_amd64.deb
+      sha256: a505b9d491386167bd8e14e3383315a4a7d6539e4406745901ccf009a7988271
+      size_bytes: 174454
+    - filename: apt/x11-common_1%3a7.7+23ubuntu3_all.deb
+      sha256: b545fa5196dd7467ba3770d6ce575abcd7941071961ea9f7535a319d9d20fd46
+      size_bytes: 21748
+    - filename: apt/xfonts-encodings_1%3a1.0.5-0ubuntu2_all.deb
+      sha256: 3bac5ff1cba3b001aee1652e3af45d200c415b68e9b27932cb51fe9c464feb40
+      size_bytes: 578092
+    - filename: apt/xfonts-utils_1%3a7.7+6build3_amd64.deb
+      sha256: 8da5fccbc50005d50dd69ef558ae72673435026e1d3134d0c1cc836d22953c44
+      size_bytes: 94438
+    - filename: apt/xkb-data_2.41-2ubuntu1.1_all.deb
+      sha256: e99f2a0b4c56cdf35dec489e56b6a8418826cab8ce6306ec6d0bd98e2cd0014a
+      size_bytes: 397328
+    - filename: apt/xml-core_0.19_all.deb
+      sha256: 0775fdd720d5ed81250da73a1d825a863be7a997122ae11077c89db37d82cb6d
+      size_bytes: 20340
+    - filename: apt/zip_3.0-13ubuntu0.2_amd64.deb
+      sha256: 30b325b542ef8e9a22a5e1e1cfce8c4f4b75db73e339e76bf405b635861f1f76
+      size_bytes: 175652
+    - filename: apt/zlib1g_1%3a1.3.dfsg-3.1ubuntu2.1_amd64.deb
+      sha256: 7074b6a2f6367a10d280c00a1cb02e74277709180bab4f2491a2f355ab2d6c20
+      size_bytes: 62850
+
+docker_images:
+  - filename: images/nginx_latest.tar
+    image: "nginx"
+    tag: "latest"
+    digest: "nginx@sha256:7150b3a39203cb5bee612ff4a9d18774f8c7caf6399d6e8985e97e28eb751c18"
+    sha256: fdb1352ac8999fa7b835205dbe509d2ec7469a394fdd39858221003b56562e42
+    size_bytes: 65828352
+  - filename: images/ubuntu_bind9_latest.tar
+    image: "ubuntu/bind9"
+    tag: "latest"
+    digest: "ubuntu/bind9@sha256:45d541e9688f2c9010d22a78200117b66ed2df31b78f3464876f7e6e15cfaf77"
+    sha256: a88743088a6409757210588170e4b2391aa950eee6bff25b4daeefb913c1d5b8
+    size_bytes: 36875264
+  - filename: images/smallstep_step-ca_latest.tar
+    image: "smallstep/step-ca"
+    tag: "latest"
+    digest: "smallstep/step-ca@sha256:a2b17872915c193259b75a5474c398326f41bd199f0842093e52cf4182bc8270"
+    sha256: 8ecd19e0a13d51feb6d8ba38ea3ae055358d1d20766a3dc979fabb6164faa047
+    size_bytes: 51580928
+  - filename: images/alpine_latest.tar
+    image: "alpine"
+    tag: "latest"
+    digest: "alpine@sha256:25109184c71bdad752c8312a8623239686a9a2071e8825f20acb8f2198c3f659"
+    sha256: 4f9f7afb99637a4ee9727d9e17c7867307d13615e198c3fa8d616f4b9c427825
+    size_bytes: 3970560
